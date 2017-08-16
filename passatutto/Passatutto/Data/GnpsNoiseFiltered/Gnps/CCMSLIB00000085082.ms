@@ -1,0 +1,47 @@
+>compound MLS002153167-01!SQ 22,53617318-31-9
+>formula C9H11N5O
+>ionization [M+H]+
+>parentmass 206.103
+#inchi InChI=1S/C9H11N5O/c10-8-7-9(12-4-11-8)14(5-13-7)6-2-1-3-15-6/h4-6H,1-3H2,(H2,10,11,12)
+#inchikey UKHMZCMKHPHFOT
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Pharmacologically Active Library
+#PI Dorrestein
+#Data_Collector VP/LMS
+#Scan -1
+#Precursor_MZ 206.103
+#ExactMass 205.096
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles Nc1ncnc2n(cnc12)C3CCCO3
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000085082
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID d252d724072548979f1f6f1ced849daf
+##Scan# 1056
+#SpectrumFile p3-E07_GE7_01_18276.mzXML
+#LibraryName Pharm_Active_Library.mgf
+#MQScore -1
+#Organism Pharm_Active_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 206.103
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+92.0237 3.79
+109.0509 3.95
+116.037 3.71
+119.0341 40.92
+136.0608 100.0
+206.103 0.0

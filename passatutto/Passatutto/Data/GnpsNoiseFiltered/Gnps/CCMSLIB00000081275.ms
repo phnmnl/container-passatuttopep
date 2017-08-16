@@ -1,0 +1,69 @@
+>compound Eremantholide C
+>formula C19H22O6
+>ionization [M+H]+
+>parentmass 347.150177
+#inchi InChI=1S/C19H22O6/c1-9(2)19(22)18(5)15-12(23-16(18)21)6-10(3)11-7-14(20)17(4,24-11)8-13(15)25-19/h6-7,12-13,15,22H,1,8H2,2-5H3/b10-6-/t12-,13+,15+,17-,18-,19-/m1/s1
+#inchikey YEIAHHGCPUIGOQ
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 347.15
+#ExactMass 346.142
+#Charge 1
+#CAS_Number 69883-97-2
+#Pubmed_ID  
+#Smiles O=C1C=C(/C(C)=C\2)O[C@]1(C)C[C@]3([H])O[C@](O)(C(C)=C)[C@]4(C)[C@@]3([H])[C@]2([H])OC4=O
+#INCHI_AUX  
+#Library_Class 3
+#SpectrumID CCMSLIB00000081275
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 817c587cd82f4892b5f202f92ca57a24
+##Scan# 1
+#SpectrumFile gnps_Eremantholide_C_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism gnps_library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 347.15
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+125.0586 3.5
+135.079 0.72
+161.0956 2.41
+165.0909 3.04
+173.0947 1.01
+177.0911 0.55
+187.1123 0.57
+189.0917 20.04
+191.1077 1.93
+199.111 1.26
+203.1064 0.57
+207.1023 1.2
+213.1285 4.59
+217.1221 0.91
+227.1079 1.5
+233.1184 0.82
+235.0955 1.56
+241.1214 10.98
+245.1157 1.23
+261.1137 0.94
+271.1353 1.33
+283.1321 0.92
+289.143 1.73
+301.1448 5.83
+311.1282 1.61
+319.1523 2.96
+329.1403 100.0
+347.1502 101.17

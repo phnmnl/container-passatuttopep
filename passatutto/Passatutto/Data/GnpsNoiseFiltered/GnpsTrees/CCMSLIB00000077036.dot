@@ -1,0 +1,15 @@
+strict digraph {
+v1 [label="C7H6\n91.0545 Da, 2.22 %\nMassDev: 3.2218 ppm, 0.0003 Da\ncE: [10]\nMass Deviation=-0.1913\nFragmentSizeScorer=1.0895\nIntensity=0.8280\nFree Radical=0.0116\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=1.1067\nScore: 0.1056"];
+v2 [label="C8H8\n105.0707 Da, 0.97 %\nMassDev: 8.1402 ppm, 0.0009 Da\ncE: [10]\nMass Deviation=-0.6516\nFragmentSizeScorer=0.9493\nIntensity=0.5426\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-0.6606\nLossSizeScorer=0.8327\nScore: 1.0682"];
+v3 [label="C7H7N\n106.0661 Da, 0.30 %\nMassDev: 8.8372 ppm, 0.0009 Da\ncE: [10]\nMass Deviation=-0.7297\nCommon Fragments:=-0.4099\nFragmentSizeScorer=0.9393\nIntensity=0.1416\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.1609\nLossSizeScorer=0.7807\nScore: 0.9387"];
+v4 [label="C9H6\n115.0529 Da, 0.67 %\nMassDev: -11.5133 ppm, -0.0013 Da\ncE: [10]\nMass Deviation=-1.1380\nFragmentSizeScorer=0.8495\nIntensity=0.4142\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0596\nCommonLossEdgeScorer=0.3734\nLossSizeScorer=-0.1189\nScore: 0.3323"];
+v5 [label="C8H6N\n117.0570 Da, 12.26 %\nMassDev: -2.5086 ppm, -0.0003 Da\ncE: [10]\nMass Deviation=-0.1915\nFragmentSizeScorer=0.8294\nIntensity=1.4158\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=-0.0139\nCommonLossEdgeScorer=1.5028\nLossSizeScorer=-0.4947\nScore: 2.9542"];
+v6 [label="C9H9N\n132.0814 Da, 100.00 %\nMassDev: 4.4235 ppm, 0.0006 Da\ncE: [10]\nMass Deviation=-0.4136\nFragmentSizeScorer=0.6792\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0111\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-3.7670\nScore: -4.0797"];
+v7 [label="C16H16ClN3O3S\n366.0679 Da, 5.17 %\nMassDev: 1.4628 ppm, 0.0005 Da\ncE: [10]\nCompoundScore: -1.5263324056376457\nMass Deviation=-0.2624\nStrangeElementRootScorer=-2.7726\nChemical Prior=0.1893\nScore: -2.8456"];
+v6 -> v1 [label="C2H3N"];
+v6 -> v2 [label="CHN"];
+v6 -> v3 [label="C2H2"];
+v6 -> v4 [label="H3N"];
+v6 -> v5 [label="CH3"];
+v7 -> v6 [label="C7H7ClN2O3S"];
+}

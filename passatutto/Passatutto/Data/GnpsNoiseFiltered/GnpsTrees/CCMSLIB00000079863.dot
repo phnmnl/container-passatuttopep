@@ -1,0 +1,3 @@
+strict digraph {
+v1 [label="C23H20BrN3O2\n450.0820 Da, 0.00 %\nMassDev: 1.8543 ppm, 0.0008 Da\ncE: []\nCompoundScore: -1.2603897124734686\nStrangeElementRootScorer=-1.3863\nChemical Prior=0.1259\nScore: -1.2604"];
+}

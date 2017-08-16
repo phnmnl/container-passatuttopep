@@ -1,0 +1,45 @@
+>compound NCGC00160312-01!2-Pyridin-3-yl-thiazolidine-4-carboxylic acid
+>formula C9H10N2O2S
+>ionization [M+H]+
+>parentmass 211.054
+#inchi InChI=1S/C9H10N2O2S/c12-9(13)7-5-14-8(11-7)6-2-1-3-10-4-6/h1-4,7-8,11H,5H2,(H,12,13)/t7-,8?/m0/s1
+#inchikey FSNGLHIMQHWTNF
+#Ion_Source LC-ESI
+#Instrument qTOF
+#Compound_Source Prestwick Phytochem Lib
+#PI Dorrestein
+#Data_Collector VVP/LMS
+#Scan -1
+#Precursor_MZ 211.054
+#ExactMass 210.046
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles OC(=O)[C@@H]1CSC(N1)C2=CN=CC=C2
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000078806
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 67c915c6594c435cadc1fe2b5358144d
+##Scan# 129
+#SpectrumFile p1-E04_GE4_01_17924.mzXML
+#LibraryName phytochem_lib.mgf
+#MQScore -1
+#Organism phytochem_lib
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 211.054
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+108.0637 7.24
+147.0521 9.9
+164.0568 9.14
+211.0558 16.38

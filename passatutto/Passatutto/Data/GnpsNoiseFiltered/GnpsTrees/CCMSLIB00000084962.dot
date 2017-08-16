@@ -1,0 +1,7 @@
+strict digraph {
+v1 [label="C6H3Cl\n110.9988 Da, 8.23 %\nMassDev: -6.9481 ppm, -0.0008 Da\ncE: [10]\nMass Deviation=-0.5745\nTreeSizeScorer=0.5000\nFragmentSizeScorer=0.8900\nIntensity=1.2789\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 3.4628"];
+v2 [label="C7H3ClO\n138.9947 Da, 100.00 %\nMassDev: 1.1234 ppm, 0.0002 Da\ncE: [10]\nMass Deviation=-0.0979\nTreeSizeScorer=0.5000\nFragmentSizeScorer=0.6101\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.5054\nLossSizeScorer=-3.4065\nScore: -2.7060"];
+v3 [label="C19H16ClNO4\n358.0840 Da, 0.00 %\nMassDev: -0.1735 ppm, -0.0001 Da\ncE: []\nCompoundScore: -0.48022460726954597\nStrangeElementRootScorer=-1.3863\nChemical Prior=0.1493\nScore: -1.2370"];
+v2 -> v1 [label="CO"];
+v3 -> v2 [label="C12H13NO3"];
+}

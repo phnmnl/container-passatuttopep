@@ -1,0 +1,17 @@
+strict digraph {
+v1 [label="C4H8ClN\n106.0425 Da, 21.69 %\nMassDev: 6.9652 ppm, 0.0007 Da\ncE: [10]\nMass Deviation=-0.5454\nCommon Fragments:=-0.5145\nFragmentSizeScorer=0.9396\nIntensity=1.6121\nFree Radical=0.0116\nStrangeElementLossScorer=0.4055\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-0.4292\nLossSizeScorer=1.0809\nScore: 2.6047"];
+v2 [label="C4H9Cl2N\n142.0184 Da, 34.40 %\nMassDev: -0.7682 ppm, -0.0001 Da\ncE: [10]\nMass Deviation=-0.0674\nFragmentSizeScorer=0.5798\nIntensity=1.7708\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.4976\nCommonLossEdgeScorer=-1.2004\nLossSizeScorer=0.9289\nScore: 1.5256"];
+v3 [label="C4H6ClNO\n120.0208 Da, 24.88 %\nMassDev: -1.9992 ppm, -0.0002 Da\ncE: [10]\nMass Deviation=-0.1541\nFragmentSizeScorer=0.7998\nIntensity=1.6593\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=1.0654\nScore: 0.6873"];
+v4 [label="C4H7Cl2N\n140.0034 Da, 100.00 %\nMassDev: 4.4068 ppm, 0.0006 Da\ncE: [10]\nMass Deviation=-0.4407\nFragmentSizeScorer=0.6000\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.9186\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 2.7028"];
+v5 [label="C5H7Cl2NO\n167.9997 Da, 4.09 %\nMassDev: 11.4187 ppm, 0.0019 Da\ncE: [10]\nMass Deviation=-1.8957\nFragmentSizeScorer=0.3200\nIntensity=1.0385\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-1.2489\nLossSizeScorer=0.9859\nScore: -0.7444"];
+v6 [label="C6H12Cl2N2O\n199.0402 Da, 4.31 %\nMassDev: 1.3172 ppm, 0.0003 Da\ncE: [10]\nMass Deviation=-0.1695\nFragmentSizeScorer=0.0096\nIntensity=1.0559\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=0.8286\nScore: -0.9586"];
+v7 [label="C5H11Cl2N2O2P\n233.0008 Da, 46.57 %\nMassDev: 0.1200 ppm, 0.0000 Da\ncE: [10]\nMass Deviation=-0.0145\nIntensity=1.8750\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-1.3474\nCommonLossEdgeScorer=-1.0255\nLossSizeScorer=0.8797\nScore: 0.3788"];
+v8 [label="C7H15Cl2N2O2P\n261.0328 Da, 892.72 %\nMassDev: 2.7193 ppm, 0.0007 Da\ncE: [10]\nCompoundScore: 0.5846674065540509\nMass Deviation=-0.5360\nStrangeElementRootScorer=-2.7726\nChemical Prior=-2.3029\nScore: -5.6115"];
+v2 -> v1 [label="HCl"];
+v6 -> v2 [label="C2H3NO"];
+v5 -> v3 [label="CHCl"];
+v5 -> v4 [label="CO"];
+v6 -> v5 [label="CH5N"];
+v8 -> v6 [label="CH3OP"];
+v8 -> v7 [label="C2H4"];
+}

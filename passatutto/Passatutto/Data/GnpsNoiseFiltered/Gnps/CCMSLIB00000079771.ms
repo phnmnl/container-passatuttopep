@@ -1,0 +1,46 @@
+>compound MLS001049086-01!butyl 2,4-dioxo-1H-pyrimidine-6-carboxylate
+>formula C9H12N2O4
+>ionization [M+H]+
+>parentmass 213.088
+#inchi InChI=1S/C9H12N2O4/c1-2-3-4-15-8(13)6-5-7(12)11-9(14)10-6/h5H,2-4H2,1H3,(H2,10,11,12,14)
+#inchikey AKSYFXKHZGSZNB
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Natural Product Library
+#PI Dorrestein
+#Data_Collector VVP/LMS
+#Scan -1
+#Precursor_MZ 213.088
+#ExactMass 212.08
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles CCCCOC(=O)c1cc(O)nc(O)n1
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000079771
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID b1d8e8f6646f4e71acdff9ca3d919d08
+##Scan# 1569
+#SpectrumFile p1-G10_GG10_01_17954.mzXML
+#LibraryName NIH_Natural_Products_Library.mgf
+#MQScore -1
+#Organism NIH_Natural_Products_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 213.088
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+97.0178 3.95
+111.0185 100.0
+139.0129 60.2
+157.0242 97.04
+213.088 0.0

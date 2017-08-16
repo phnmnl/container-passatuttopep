@@ -1,0 +1,65 @@
+>compound Hesperedin
+>formula C28H34O15
+>ionization [M+H]+
+>parentmass 611.1970468400905
+#inchi InChI=1S/C28H34O15/c1-10-21(32)23(34)25(36)27(40-10)39-9-19-22(33)24(35)26(37)28(43-19)41-12-6-14(30)20-15(31)8-17(42-18(20)7-12)11-3-4-16(38-2)13(29)5-11/h3-7,10,17,19,21-30,32-37H,8-9H2,1-2H3/t10-,17-,19+,21-,22+,23+,24-,25+,26+,27+,28+/m0/s1
+#inchikey QUQPHWDTPGMPEX
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 611.172
+#ExactMass 610.19
+#Charge 1
+#CAS_Number 520-26-3
+#Pubmed_ID  
+#Smiles O=C1C2=C(O)C=C(O[C@H]3[C@H](O)[C@@H](O)[C@H](O)[C@@H](CO[C@@H]4O[C@@H](C)[C@H](O)[C@@H](O)[C@H]4O)O3)C=C2O[C@H](C5=CC=C(OC)C(O)=C5)C1
+#INCHI_AUX  
+#Library_Class 3
+#SpectrumID CCMSLIB00000077991
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 974ef4cf58c742779f68f9e14e4ae1ff
+##Scan# 1
+#SpectrumFile gnps_hesperedin_pos_MSMS2_611.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism gnps_library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 611.172
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 10
+129.044968 7399.0
+147.052933 5362.0
+153.004501 2331.0
+177.043854 1823.0
+195.017761 1538.0
+263.03775 1590.0
+281.05069 3840.0
+303.068085 106219.0
+315.068512 798.0
+327.068756 1011.0
+345.076843 7896.0
+369.074005 3032.0
+395.089325 717.0
+413.098846 7467.0
+431.109222 8208.0
+447.104248 1517.0
+449.120148 11873.0
+461.262207 659.0
+463.469727 686.0
+465.113098 18481.0
+468.301697 1075.0
+476.09198 3427.0
+479.095093 805.0
+611.172302 559.0

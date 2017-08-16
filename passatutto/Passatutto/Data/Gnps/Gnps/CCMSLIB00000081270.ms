@@ -1,0 +1,71 @@
+>compound Gibberellic acid
+>formula C19H22O6
+>ionization [M+H]+
+>parentmass 347.14891487609054
+#inchi InChI=1S/C19H22O6/c1-9-7-17-8-18(9,24)5-3-10(17)19-6-4-11(20)16(2,15(23)25-19)13(19)12(17)14(21)22/h4,6,10-13,20,24H,1,3,5,7-8H2,2H3,(H,21,22)/t10-,11+,12-,13-,16-,17+,18+,19-/m1/s1
+#inchikey IXORZMNAPKEEDV
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Commercial
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 347.155
+#ExactMass 346.142
+#Charge 1
+#CAS_Number 77-06-5
+#Pubmed_ID  
+#Smiles C=C1C[C@@]23[C@@H](C(O)=O)[C@]4([H])[C@@]5(C)[C@@H](O)C=C[C@@]4(OC5=O)[C@]2([H])CC[C@]1(O)C3
+#INCHI_AUX  
+#Library_Class 3
+#SpectrumID CCMSLIB00000081270
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 94dd531c4d8241d0b25a287f981bad78
+##Scan# 1
+#SpectrumFile gnps_Gibberellic_acid_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism gnps_library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 347.155
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 10
+145.100067 101.0
+155.087585 136.0
+165.0746 124.0
+178.082825 144.0
+179.087997 215.0
+180.098984 214.0
+181.10202 119.0
+193.104706 494.0
+195.121216 150.0
+201.093948 229.0
+209.134476 197.0
+221.136154 1671.0
+222.13945 177.0
+223.15358 133.0
+237.130646 278.0
+239.149414 10862.0
+240.152283 1501.0
+255.143051 382.0
+265.130066 663.0
+267.144501 2508.0
+271.899353 101.0
+283.140686 4538.0
+285.156677 2565.0
+301.150116 2576.0
+303.170807 121.0
+309.066986 154.0
+311.132416 6797.0
+329.146942 18038.0
+334.994263 102.0
+347.155457 526.0

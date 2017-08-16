@@ -1,0 +1,17 @@
+strict digraph {
+v1 [label="C9H6\n115.0541 Da, 2.18 %\nMassDev: -1.5005 ppm, -0.0002 Da\ncE: [10]\nMass Deviation=-0.1087\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.8495\nIntensity=0.8211\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0398\nCommonLossEdgeScorer=-1.8097\nLossSizeScorer=0.9819\nScore: 0.2855"];
+v2 [label="C11H8N2\n169.0761 Da, 3.69 %\nMassDev: 0.1496 ppm, 0.0000 Da\ncE: [10]\nMass Deviation=-0.0152\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.3092\nIntensity=1.0032\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0081\nCommonLossEdgeScorer=-1.0255\nLossSizeScorer=0.8797\nScore: 0.6548"];
+v3 [label="C10H9N\n144.0810 Da, 8.96 %\nMassDev: 1.2997 ppm, 0.0002 Da\ncE: [10]\nMass Deviation=-0.1184\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.5592\nIntensity=1.3079\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-0.6606\nLossSizeScorer=0.8328\nScore: 1.4766"];
+v4 [label="C9H5N\n128.0503 Da, 100.00 %\nMassDev: 6.5005 ppm, 0.0008 Da\ncE: [10]\nMass Deviation=-0.6303\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.7195\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0395\nCommonLossEdgeScorer=0.1609\nLossSizeScorer=0.7808\nScore: 2.7199"];
+v5 [label="C11H7N\n154.0661 Da, 2.83 %\nMassDev: 6.4279 ppm, 0.0010 Da\ncE: [10]\nMass Deviation=-0.7817\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.4593\nIntensity=0.9120\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0583\nCommonLossEdgeScorer=0.3734\nLossSizeScorer=-0.1191\nScore: 0.2973"];
+v6 [label="C11H10N2\n171.0930 Da, 85.10 %\nMassDev: 7.7573 ppm, 0.0013 Da\ncE: [10]\nMass Deviation=-1.1409\nCommon Fragments:=-0.2539\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.2891\nIntensity=2.0824\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.1609\nLossSizeScorer=0.7807\nScore: 1.4741"];
+v7 [label="C13H12N2\n197.1086 Da, 7.79 %\nMassDev: 6.5302 ppm, 0.0013 Da\ncE: [10]\nMass Deviation=-1.0955\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.0289\nIntensity=1.2600\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0121\nCommonLossEdgeScorer=0.3734\nLossSizeScorer=-0.1194\nScore: -0.0530"];
+v8 [label="C13H15N3\n214.1339 Da, 0.00 %\nMassDev: 0.0000 ppm, 0.0000 Da\ncE: []\nCompoundScore: 7.020499491126275\nChemical Prior=0.1654\nScore: 0.1654"];
+v2 -> v1 [label="C2H2N2"];
+v7 -> v2 [label="C2H4"];
+v6 -> v3 [label="CHN"];
+v5 -> v4 [label="C2H2"];
+v6 -> v5 [label="H3N"];
+v7 -> v6 [label="C2H2"];
+v8 -> v7 [label="H3N"];
+}

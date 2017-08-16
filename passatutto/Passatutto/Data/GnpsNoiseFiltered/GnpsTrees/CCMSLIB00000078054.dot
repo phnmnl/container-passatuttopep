@@ -1,0 +1,23 @@
+strict digraph {
+v1 [label="C7H5ClFN2\n172.0204 Da, 21.39 %\nMassDev: 3.2815 ppm, 0.0006 Da\ncE: [10]\nMass Deviation=-0.3975\nTreeSizeScorer=2.5000\nFragmentSizeScorer=0.2798\nIntensity=1.6073\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-1.0952\nScore: 0.2113"];
+v2 [label="C5H7ClN\n117.0348 Da, 0.37 %\nMassDev: 7.3879 ppm, 0.0009 Da\ncE: [10]\nMass Deviation=-0.6603\nTreeSizeScorer=2.5000\nFragmentSizeScorer=0.8297\nIntensity=0.2117\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=1.4335\nLossSizeScorer=0.0330\nScore: 4.4033"];
+v3 [label="C5H9ClNO\n135.0446 Da, 1.33 %\nMassDev: 0.0960 ppm, 0.0000 Da\ncE: [10]\nMass Deviation=-0.0078\nTreeSizeScorer=2.5000\nFragmentSizeScorer=0.6496\nIntensity=0.6528\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-1.8635\nLossSizeScorer=0.6181\nScore: 2.6049"];
+v4 [label="CH6N2O2\n79.0492 Da, 0.24 %\nMassDev: -12.7754 ppm, -0.0010 Da\ncE: [10]\nMass Deviation=-0.8012\nTreeSizeScorer=2.5000\nFragmentSizeScorer=1.2095\nIntensity=0.0642\nFree Radical=0.0116\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=0.5675\nScore: 0.8127"];
+v5 [label="C5N\n75.0108 Da, 0.28 %\nMassDev: 5.5265 ppm, 0.0004 Da\ncE: [10]\nMass Deviation=-0.2799\nTreeSizeScorer=2.5000\nFragmentSizeScorer=1.2499\nIntensity=0.1154\nFree Radical=0.0116\nCommonLossEdgeScorer=-1.6667\nLossSizeScorer=1.0118\nScore: 2.9421"];
+v6 [label="C6H4NO\n107.0351 Da, 0.69 %\nMassDev: -14.0907 ppm, -0.0015 Da\ncE: [10]\nMass Deviation=-1.3548\nTreeSizeScorer=2.5000\nFragmentSizeScorer=0.9296\nIntensity=0.4253\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-0.6606\nLossSizeScorer=0.8327\nScore: 2.7281"];
+v7 [label="C7H5N2O\n134.0465 Da, 12.05 %\nMassDev: -7.1261 ppm, -0.0010 Da\ncE: [10]\nMass Deviation=-0.7471\nTreeSizeScorer=2.5000\nFragmentSizeScorer=0.6595\nIntensity=1.4098\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0114\nCommonLossEdgeScorer=1.4335\nLossSizeScorer=0.0330\nScore: 5.2890"];
+v8 [label="C7H7N2O2\n152.0564 Da, 1.90 %\nMassDev: -10.8375 ppm, -0.0016 Da\ncE: [10]\nMass Deviation=-1.5302\nTreeSizeScorer=2.5000\nFragmentSizeScorer=0.4794\nIntensity=0.7741\nFree Radical=0.0116\nLoss RDBE=-2.1972\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-1.3308\nLossSizeScorer=0.9825\nScore: -0.2665"];
+v9 [label="C7H6ClN2O\n170.0234 Da, 100.00 %\nMassDev: -4.2344 ppm, -0.0007 Da\ncE: [10]\nMass Deviation=-0.5289\nTreeSizeScorer=2.5000\nFragmentSizeScorer=0.2998\nIntensity=2.1379\nFree Radical=0.0116\nLoss RDBE=-2.1972\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-0.6147\nLossSizeScorer=1.0814\nScore: 2.7339"];
+v10 [label="C7H10ClN2O3\n206.0435 Da, 0.26 %\nMassDev: -8.6550 ppm, -0.0018 Da\ncE: [10]\nMass Deviation=-1.6502\nTreeSizeScorer=2.5000\nIntensity=0.0936\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-0.1186\nScore: -1.8584"];
+v11 [label="C10H11ClFN5O3\n304.0610 Da, 55.38 %\nMassDev: 1.0308 ppm, 0.0003 Da\ncE: [10]\nCompoundScore: 14.53354606790309\nMass Deviation=-0.1790\nStrangeElementRootScorer=-2.7726\nChemical Prior=-2.1154\nScore: -5.0670"];
+v11 -> v1 [label="C3H6N3O3"];
+v3 -> v2 [label="H2O"];
+v10 -> v3 [label="C2HNO2"];
+v8 -> v4 [label="C6H"];
+v6 -> v5 [label="CH4O"];
+v7 -> v6 [label="CHN"];
+v8 -> v7 [label="H2O"];
+v10 -> v8 [label="H3ClO"];
+v10 -> v9 [label="H4O2"];
+v11 -> v10 [label="C3HFN3"];
+}

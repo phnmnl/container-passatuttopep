@@ -1,0 +1,56 @@
+>compound Desferrioxamine E
+>formula C27H48N6O9 
+>ionization [M+H]+
+>parentmass 601.3555535680905
+#inchi InChI=1S/C27H48N6O9/c34-22-10-14-26(38)32(41)20-8-3-6-18-30-24(36)12-15-27(39)33(42)21-9-2-5-17-29-23(35)11-13-25(37)31(40)19-7-1-4-16-28-22/h40-42H,1-21H2,(H,28,34)(H,29,35)(H,30,36)
+#inchikey NHKCCADZVLTPPO
+#Ion_Source DI-ESI
+#Instrument Hybrid FT
+#Compound_Source Isolated
+#PI Dorrestein/Moore
+#Data_Collector Roland Kersten
+#Scan -1
+#Precursor_MZ 601.0
+#ExactMass 600.348
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles N/A
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000075314
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 216f7e25eb284d139eda10f0ea06e32c
+##Scan# 23
+#SpectrumFile DesE_FT_601mz.mzXML
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism empty
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 601
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+194.0246 4.17
+213.032 3.29
+219.1015 2.67
+254.1295 4.2
+283.1291 4.85
+301.1396 3.44
+367.0614 3.71
+401.2396 100.0
+419.2505 2.78
+463.1418 2.82
+483.2452 3.57
+498.2615 2.9
+536.2493 3.97
+573.3495 9.96
+601.3556 0.0

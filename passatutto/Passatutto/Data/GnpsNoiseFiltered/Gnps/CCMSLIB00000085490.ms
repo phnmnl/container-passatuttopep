@@ -1,0 +1,46 @@
+>compound MLS000859889-01!Caffeic acid phenethyl ester
+>formula C17H16O4
+>ionization [M+H]+
+>parentmass 285.11213544409054
+#inchi InChI=1S/C17H16O4/c18-15-8-6-14(12-16(15)19)7-9-17(20)21-11-10-13-4-2-1-3-5-13/h1-9,12,18-19H,10-11H2/b9-7+
+#inchikey SWUARLUWKZWEBQ
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Pharmacologically Active Library
+#PI Dorrestein
+#Data_Collector VP/LMS
+#Scan -1
+#Precursor_MZ 285.117
+#ExactMass 284.105
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles Oc1ccc(/C=C/C(=O)OCCc2ccccc2)cc1O
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000085490
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID d252d724072548979f1f6f1ced849daf
+##Scan# 2115
+#SpectrumFile p4-B07_GB7_01_18343.mzXML
+#LibraryName Pharm_Active_Library.mgf
+#MQScore -1
+#Organism Pharm_Active_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 285.117
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+77.04 1.25
+103.0547 20.5
+105.0708 100.0
+161.0594 1.1
+285.1121 0.0

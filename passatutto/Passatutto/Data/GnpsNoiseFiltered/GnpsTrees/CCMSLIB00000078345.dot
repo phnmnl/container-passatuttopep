@@ -1,0 +1,17 @@
+strict digraph {
+v1 [label="C5H5NO\n96.0434 Da, 0.52 %\nMassDev: -10.3519 ppm, -0.0010 Da\ncE: [10]\nMass Deviation=-0.7856\nFragmentSizeScorer=1.0396\nIntensity=0.3318\nFree Radical=0.0116\nCommonLossEdgeScorer=0.3734\nLossSizeScorer=-0.1190\nScore: 0.8518"];
+v2 [label="C5H8N2O\n113.0709 Da, 43.31 %\nMassDev: -0.7546 ppm, -0.0001 Da\ncE: [10]\nMass Deviation=-0.0524\nFragmentSizeScorer=0.8693\nIntensity=1.8500\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.2623\nLossSizeScorer=-1.7383\nScore: 1.2467"];
+v3 [label="C6H5NO\n108.0435 Da, 16.15 %\nMassDev: -7.7860 ppm, -0.0008 Da\ncE: [10]\nMass Deviation=-0.6385\nFragmentSizeScorer=0.9196\nIntensity=1.5106\nFree Radical=0.0116\nStrangeElementLossScorer=0.4055\nChemicalPriorEdgeScorer=0.0171\nCommonLossEdgeScorer=-2.0138\nLossSizeScorer=1.0106\nScore: 1.2227"];
+v4 [label="C6H5NOS\n140.0160 Da, 1.32 %\nMassDev: -3.3584 ppm, -0.0005 Da\ncE: [10]\nMass Deviation=-0.3225\nFragmentSizeScorer=0.5998\nIntensity=0.6505\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0371\nCommonLossEdgeScorer=-0.4117\nLossSizeScorer=-0.9817\nScore: -0.4168"];
+v5 [label="C6H5N\n92.0493 Da, 2.23 %\nMassDev: -1.6471 ppm, -0.0002 Da\ncE: [10]\nMass Deviation=-0.0949\nFragmentSizeScorer=1.0795\nIntensity=0.8297\nFree Radical=0.0116\nStrangeElementLossScorer=0.4055\nCommonLossEdgeScorer=-0.7153\nLossSizeScorer=0.3582\nScore: 1.8743"];
+v6 [label="C6H5NO2S\n156.0118 Da, 100.00 %\nMassDev: 2.7828 ppm, 0.0004 Da\ncE: [10]\nMass Deviation=-0.2947\nFragmentSizeScorer=0.4399\nIntensity=2.1379\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=0.0399\nCommonLossEdgeScorer=-0.3062\nLossSizeScorer=-0.1230\nScore: 1.8000"];
+v7 [label="C6H6NO3S\n173.0153 Da, 0.61 %\nMassDev: 6.6959 ppm, 0.0012 Da\ncE: [10]\nMass Deviation=-0.9547\nFragmentSizeScorer=0.2698\nIntensity=0.3824\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-0.0343\nScore: -3.0200"];
+v8 [label="C11H13N3O3S\n268.0752 Da, 54.40 %\nMassDev: 0.4710 ppm, 0.0001 Da\ncE: [10]\nCompoundScore: 2.2957866181593958\nMass Deviation=-0.0783\nStrangeElementRootScorer=-1.3863\nChemical Prior=0.2019\nScore: -1.2628"];
+v2 -> v1 [label="H3N"];
+v8 -> v2 [label="C6H5NO2S"];
+v4 -> v3 [label="S"];
+v8 -> v4 [label="C5H8N2O2"];
+v7 -> v5 [label="HO3S"];
+v7 -> v6 [label="HO"];
+v8 -> v7 [label="C5H7N2"];
+}

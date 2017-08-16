@@ -1,0 +1,17 @@
+strict digraph {
+v1 [label="C9H7F\n135.0617 Da, 1.24 %\nMassDev: 9.1521 ppm, 0.0012 Da\ncE: [10]\nMass Deviation=-1.0388\nCommon Fragments:=0.0987\nTreeSizeScorer=0.5000\nFragmentSizeScorer=0.6494\nIntensity=0.6274\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 2.2051"];
+v2 [label="C10H7FO\n163.0573 Da, 1.27 %\nMassDev: 11.8209 ppm, 0.0019 Da\ncE: [10]\nMass Deviation=-1.9086\nTreeSizeScorer=0.5000\nFragmentSizeScorer=0.3694\nIntensity=0.6347\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0011\nCommonLossEdgeScorer=-1.2489\nLossSizeScorer=0.9859\nScore: -0.6570"];
+v3 [label="C6H3F\n95.0299 Da, 3.42 %\nMassDev: 8.0736 ppm, 0.0008 Da\ncE: [10]\nMass Deviation=-0.5709\nTreeSizeScorer=0.5000\nFragmentSizeScorer=1.0497\nIntensity=0.9763\nFree Radical=0.0116\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 3.2793"];
+v4 [label="C7H3FO\n123.0256 Da, 100.00 %\nMassDev: 12.1650 ppm, 0.0015 Da\ncE: [10]\nMass Deviation=-1.3407\nTreeSizeScorer=0.5000\nFragmentSizeScorer=0.7697\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0002\nCommonLossEdgeScorer=-1.8523\nLossSizeScorer=1.1054\nScore: 1.3319"];
+v5 [label="C10H9FO\n165.0722 Da, 89.54 %\nMassDev: 7.0843 ppm, 0.0012 Da\ncE: [10]\nMass Deviation=-0.9664\nTreeSizeScorer=0.5000\nFragmentSizeScorer=0.3493\nIntensity=2.0999\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0324\nCommonLossEdgeScorer=-1.9532\nLossSizeScorer=0.9197\nScore: 0.9933"];
+v6 [label="C11H12FNO\n194.0970 Da, 1.25 %\nMassDev: -2.9299 ppm, -0.0006 Da\ncE: [10]\nMass Deviation=-0.4009\nTreeSizeScorer=0.5000\nFragmentSizeScorer=0.0590\nIntensity=0.6298\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-3.1313\nScore: -5.0265"];
+v7 [label="C21H21BrFNO\n402.0853 Da, 2.68 %\nMassDev: -2.5718 ppm, -0.0010 Da\ncE: [10]\nMass Deviation=-0.3582\nTreeSizeScorer=0.5000\nIntensity=0.8930\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0305\nCommonLossEdgeScorer=1.4335\nLossSizeScorer=0.0333\nScore: 2.5438"];
+v8 [label="C21H23BrFNO2\n420.0969 Da, 0.00 %\nMassDev: 0.0000 ppm, 0.0000 Da\ncE: []\nCompoundScore: 2.0958714593009335\nStrangeElementRootScorer=-2.7726\nChemical Prior=0.1985\nScore: -2.5741"];
+v2 -> v1 [label="CO"];
+v6 -> v2 [label="CH5N"];
+v4 -> v3 [label="CO"];
+v5 -> v4 [label="C3H6"];
+v6 -> v5 [label="CH3N"];
+v7 -> v6 [label="C10H9Br"];
+v8 -> v7 [label="H2O"];
+}

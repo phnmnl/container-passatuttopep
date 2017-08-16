@@ -1,0 +1,69 @@
+>compound 2-(5-formyl-3,4-dihydro-2,2-dimethyl-2H-pyran-6-yl)-Benzoic acid
+>formula C15H14O3
+>ionization [M+Na]+
+>parentmass 265.0835150080905
+#inchi InChI=1S/C15H14O3/c1-15(2)8-7-11-13(17)12(16)9-5-3-4-6-10(9)14(11)18-15/h3-6H,7-8H2,1-2H3
+#inchikey QZPQTZZNNJUOLS
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 283.091
+#ExactMass 242.094
+#Charge 1
+#CAS_Number 1027802-07-8
+#Pubmed_ID  
+#Smiles O=C(C1=CC=CC=C1C2=C3CCC(C)(C)O2)C3=O
+#INCHI_AUX  
+#Library_Class 3
+#SpectrumID CCMSLIB00000081244
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 90cb44284c3c436ab31eddf4ed4cc13b
+##Scan# 1
+#SpectrumFile gnps_2_5_formyl_3_4_dihydro_2_2_dimethyl_2H_pyran_6_yl_Benzoic_acid_pos_M_Na.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism gnps_library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 283.091
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 10
+121.061272 739.0
+122.065224 102.0
+133.025421 112.0
+149.01947 1469.0
+150.02272 132.0
+159.041763 1570.0
+160.043106 171.0
+165.020996 107.0
+173.094009 366.0
+175.034271 158.0
+183.031555 196.0
+184.967194 580.0
+187.045746 197.0
+191.02066 109.0
+199.032074 100.0
+207.041428 154.0
+209.029556 143.0
+227.028625 7390.0
+228.031616 855.0
+229.032425 141.0
+235.024918 223.0
+237.08429 202.0
+240.99762 168.0
+249.002228 149.0
+253.034348 304.0
+267.014435 428.0
+279.015442 320.0
+283.091125 2009.0

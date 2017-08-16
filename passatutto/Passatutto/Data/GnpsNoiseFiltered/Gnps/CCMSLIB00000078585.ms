@@ -1,0 +1,47 @@
+>compound Tripelennamine HCl
+>formula C16H21N3
+>ionization [M+H]+
+>parentmass 256.181763
+#inchi InChI=1S/C16H21N3/c1-18(2)12-13-19(16-10-6-7-11-17-16)14-15-8-4-3-5-9-15/h3-11H,12-14H2,1-2H3
+#inchikey UFLGIAIHIAPJJC
+#origInchi InChI=1S/C16H21N3.ClH/c1-18(2)12-13-19(16-10-6-7-11-17-16)14-15-8-4-3-5-9-15;/h3-11H,12-14H2,1-2H3;1H
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source Commercial
+#PI Dorrestein
+#Data_Collector Garg_Neha
+#Scan -1
+#Precursor_MZ 256.181
+#ExactMass 255.174
+#Charge 1
+#CAS_Number 154-69-8 ,91-81-6(free base)
+#Pubmed_ID N/A
+#Smiles C(CN(C1C=CC=CN=1)CC2C=CC=CC=2)N(C)C.Cl
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000078585
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID 77f51c88eb8b467eb4a01dd2d0cb90d2
+##Scan# 1054
+#SpectrumFile Plate9_41_60_GC6_01_15755.mzXML
+#LibraryName FDALibrary_2_04302014.mgf
+#MQScore -1
+#Organism FDALibrary_2_04302014
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 256.181
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+91.0555 1.77
+119.0606 8.21
+120.0678 4.17
+211.1243 100.0
+256.1818 12.59

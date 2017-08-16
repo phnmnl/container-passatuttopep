@@ -1,0 +1,43 @@
+>compound Anonain
+>formula C17H15NO2
+>ionization [M+H]+
+>parentmass 266.11755517209053
+#inchi InChI=1S/C17H15NO2/c1-2-4-12-10(3-1)7-13-15-11(5-6-18-13)8-14-17(16(12)15)20-9-19-14/h1-4,8,13,18H,5-7,9H2/t13-/m1/s1
+#inchikey VZTUKBKUWSHDFM
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 266.058
+#ExactMass 265.11
+#Charge 1
+#CAS_Number 1862-41-5
+#Pubmed_ID N/A
+#Smiles [H][C@@]1(NCC2)CC3=CC=CC=C3C4=C1C2=CC5=C4OCO5
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081693
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 52bd5f0db6314c93924d5ce5c86348eb
+##Scan# 1
+#SpectrumFile gnps_Anonain_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05_V02
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 266.058
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+229.0528 13.98
+266.1176 0.0

@@ -1,0 +1,47 @@
+>compound MLS001140931-01!4-[[2-(2-oxo-4-phenylchromen-7-yl)oxypropanoylamino]methyl]cyclohexane-1-carboxylic acid
+>formula C26H27NO6
+>ionization [M+H]+
+>parentmass 450.192
+#inchi InChI=1S/C26H27NO6/c1-16(25(29)27-15-17-7-9-19(10-8-17)26(30)31)32-20-11-12-21-22(18-5-3-2-4-6-18)14-24(28)33-23(21)13-20/h2-6,11-14,16-17,19H,7-10,15H2,1H3,(H,27,29)(H,30,31)/t16?,17-,19-
+#inchikey BRIRKFJSVSFJIQ
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Natural Product Library
+#PI Dorrestein
+#Data_Collector VVP/LMS
+#Scan -1
+#Precursor_MZ 450.192
+#ExactMass 449.184
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles CC(Oc1ccc2c(cc(=O)oc2c1)c3ccccc3)C(=O)NC[C@H]4CC[C@@H](CC4)C(=O)O
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000079596
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID b1d8e8f6646f4e71acdff9ca3d919d08
+##Scan# 2103
+#SpectrumFile p1-F08_GF8_01_17940.mzXML
+#LibraryName NIH_Natural_Products_Library.mgf
+#MQScore -1
+#Organism NIH_Natural_Products_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 450.192
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+169.1838 1.82
+181.1953 0.91
+183.2095 3.08
+221.2158 1.63
+222.2219 0.94
+450.192 0.0

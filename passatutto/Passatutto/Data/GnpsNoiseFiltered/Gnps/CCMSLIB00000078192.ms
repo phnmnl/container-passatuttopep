@@ -1,0 +1,47 @@
+>compound Ubenimex (Bestatin)
+>formula C16H24N2O4
+>ionization [M+Na]+
+>parentmass 331.1633
+#inchi InChI=1S/C16H24N2O4/c1-10(2)8-13(16(21)22)18-15(20)14(19)12(17)9-11-6-4-3-5-7-11/h3-7,10,12-14,19H,8-9,17H2,1-2H3,(H,18,20)(H,21,22)/t12-,13+,14+/m1/s1
+#inchikey VGGGPCQERPFHOB
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source Commercial
+#PI Dorrestein
+#Data_Collector Garg_Neha
+#Scan -1
+#Precursor_MZ 331.163
+#ExactMass 308.174
+#Charge 1
+#CAS_Number 58970-76-6, 65391-42-6 (HCl), 223763-80-2 (TFA)
+#Pubmed_ID N/A
+#Smiles C1=CC=CC(=C1)C[C@H]([C@@H](C(N[C@H](C(O)=O)CC(C)C)=O)O)N
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000078192
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID 77f51c88eb8b467eb4a01dd2d0cb90d2
+##Scan# 1060
+#SpectrumFile Plate3_21_40_GG10_01_16499.mzXML
+#LibraryName FDALibrary_2_04302014.mgf
+#MQScore -1
+#Organism FDALibrary_2_04302014
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 331.163
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+155.0352 4.9
+206.0809 6.53
+207.0782 4.39
+219.0761 4.29
+277.1334 8.98
+331.1633 107.45

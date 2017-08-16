@@ -1,0 +1,65 @@
+>compound Veraguensin
+>formula C22H28O5
+>ionization [M+H]+
+>parentmass 373.2009504480905
+#inchi InChI=1S/C22H28O5/c1-13-14(2)22(16-8-10-18(24-4)20(12-16)26-6)27-21(13)15-7-9-17(23-3)19(11-15)25-5/h7-14,21-22H,1-6H3/t13-,14-,21-,22+/m0/s1
+#inchikey JLJAVUZBHSLLJL
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 373.198
+#ExactMass 372.194
+#Charge 1
+#CAS_Number 19950-55-1
+#Pubmed_ID  
+#Smiles COC1=C(OC)C=C([C@H]2[C@@H](C)[C@H](C)[C@@H](C3=CC(OC)=C(OC)C=C3)O2)C=C1
+#INCHI_AUX  
+#Library_Class 3
+#SpectrumID CCMSLIB00000081293
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID cc5c7e6efaa64c08bce4d172b688d130
+##Scan# 1
+#SpectrumFile gnps_Veraguensin_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism gnps_library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 373.198
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+124.052 1.61
+133.0638 0.52
+135.0805 0.96
+136.0516 2.75
+137.0605 0.95
+139.075 25.54
+147.0802 0.84
+148.0877 0.54
+151.0757 100.0
+159.0813 1.13
+163.0759 2.75
+164.0839 2.54
+165.0895 46.81
+167.0708 79.01
+176.0832 4.68
+177.0893 2.27
+179.1074 67.13
+191.1064 8.1
+195.1007 10.57
+202.0988 11.54
+217.1214 88.62
+235.1323 79.77
+355.1901 9.21
+373.1993 1.96

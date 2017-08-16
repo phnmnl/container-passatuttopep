@@ -1,0 +1,15 @@
+strict digraph {
+v1 [label="C16H7\n200.0614 Da, 2.95 %\nMassDev: -3.1724 ppm, -0.0006 Da\ncE: [10]\nMass Deviation=-0.4556\nTreeSizeScorer=1.0000\nIntensity=0.9256\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=-0.1070\nCommonLossEdgeScorer=-1.2484\nLossSizeScorer=0.9853\nScore: 1.0063"];
+v2 [label="C12H7\n152.0622 Da, 0.48 %\nMassDev: 1.1398 ppm, 0.0002 Da\ncE: [10]\nMass Deviation=-0.1092\nTreeSizeScorer=1.0000\nFragmentSizeScorer=0.4794\nIntensity=0.3027\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=1.0538\nScore: 0.0435"];
+v3 [label="C16H8\n201.0710 Da, 3.94 %\nMassDev: 5.5816 ppm, 0.0011 Da\ncE: [10]\nMass Deviation=-0.9161\nTreeSizeScorer=1.0000\nIntensity=1.0252\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0549\nCommonLossEdgeScorer=-1.3382\nLossSizeScorer=0.9544\nScore: 0.6822"];
+v4 [label="C16H9\n202.0790 Da, 100.00 %\nMassDev: 6.6274 ppm, 0.0013 Da\ncE: [10]\nMass Deviation=-1.1465\nTreeSizeScorer=1.0000\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0066\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=0.9188\nScore: 0.1764"];
+v5 [label="C12H6\n151.0539 Da, 0.48 %\nMassDev: -2.3015 ppm, -0.0003 Da\ncE: [10]\nMass Deviation=-0.2303\nTreeSizeScorer=1.0000\nFragmentSizeScorer=0.4895\nIntensity=0.3027\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0284\nCommonLossEdgeScorer=-1.0716\nLossSizeScorer=1.0132\nScore: 1.5435"];
+v6 [label="C16H10\n203.0846 Da, 36.32 %\nMassDev: -4.5881 ppm, -0.0009 Da\ncE: [10]\nMass Deviation=-0.7151\nTreeSizeScorer=1.0000\nIntensity=1.7895\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0380\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 3.4368"];
+v7 [label="C17H10O\n231.0812 Da, 48.69 %\nMassDev: 3.1833 ppm, 0.0007 Da\ncE: [10]\nCompoundScore: 6.17724817686098\nMass Deviation=-0.6491\nChemical Prior=-0.0623\nScore: -0.7114"];
+v7 -> v1 [label="CH3O"];
+v3 -> v2 [label="C4H"];
+v7 -> v3 [label="CH2O"];
+v7 -> v4 [label="CHO"];
+v6 -> v5 [label="C4H4"];
+v7 -> v6 [label="CO"];
+}

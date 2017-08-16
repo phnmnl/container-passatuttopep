@@ -1,0 +1,17 @@
+strict digraph {
+v1 [label="C4H8N2S\n117.0484 Da, 37.69 %\nMassDev: 2.8048 ppm, 0.0003 Da\ncE: [10]\nMass Deviation=-0.2163\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.8295\nIntensity=1.8022\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=1.1055\nScore: 0.3378"];
+v2 [label="C5H6N2\n95.0602 Da, 16.07 %\nMassDev: -2.1212 ppm, -0.0002 Da\ncE: [10]\nMass Deviation=-0.1281\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=1.0494\nIntensity=1.5090\nFree Radical=0.0116\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=0.9548\nScore: 0.1578"];
+v3 [label="C3H6N4\n99.0659 Da, 5.81 %\nMassDev: -6.4870 ppm, -0.0006 Da\ncE: [10]\nMass Deviation=-0.4623\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=1.0093\nIntensity=1.1590\nFree Radical=0.0116\nCommonLossEdgeScorer=0.1609\nLossSizeScorer=0.7808\nScore: 2.1593"];
+v4 [label="C5H8N4\n125.0817 Da, 0.44 %\nMassDev: -4.1789 ppm, -0.0005 Da\ncE: [10]\nMass Deviation=-0.3638\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.7492\nIntensity=0.2698\nFree Radical=0.0116\nStrangeElementLossScorer=0.4055\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-1.3055\nLossSizeScorer=1.0525\nScore: 0.3635"];
+v5 [label="C4H5N3S\n128.0270 Da, 0.93 %\nMassDev: -5.2459 ppm, -0.0007 Da\ncE: [10]\nMass Deviation=-0.4870\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.7197\nIntensity=0.5300\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-1.2489\nLossSizeScorer=0.9860\nScore: 0.0556"];
+v6 [label="C5H10N4S\n159.0700 Da, 100.00 %\nMassDev: 0.9067 ppm, 0.0001 Da\ncE: [10]\nMass Deviation=-0.0901\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.4093\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-2.4063\nCommonLossEdgeScorer=-1.0716\nLossSizeScorer=1.0132\nScore: -0.4959"];
+v7 [label="C9H14N4S\n211.1015 Da, 7.40 %\nMassDev: 1.4548 ppm, 0.0003 Da\ncE: [10]\nMass Deviation=-0.1906\nTreeSizeScorer=-0.5000\nIntensity=1.2423\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=1.1055\nScore: -1.0261"];
+v8 [label="C10H16N6S\n253.1237 Da, 66.56 %\nMassDev: 2.7498 ppm, 0.0007 Da\ncE: [10]\nCompoundScore: -2.492743021278175\nMass Deviation=-0.5433\nStrangeElementRootScorer=-1.3863\nChemical Prior=-2.1151\nScore: -4.0447"];
+v6 -> v1 [label="CH2N2"];
+v4 -> v2 [label="H2N2"];
+v4 -> v3 [label="C2H2"];
+v6 -> v4 [label="H2S"];
+v6 -> v5 [label="CH5N"];
+v7 -> v6 [label="C4H4"];
+v8 -> v7 [label="CH2N2"];
+}

@@ -1,0 +1,57 @@
+>compound Ferintoic acid B
+>formula C47H60N8O9 
+>ionization [M+H]+
+>parentmass 881.4556019520905
+#inchi InChI=1S/C47H60N8O9/c1-5-28(2)40-44(60)50-37(23-20-30-18-21-33(56)22-19-30)45(61)55(4)29(3)41(57)51-38(25-31-13-7-6-8-14-31)42(58)48-24-12-11-17-36(43(59)54-40)52-47(64)53-39(46(62)63)26-32-27-49-35-16-10-9-15-34(32)35/h6-10,13-16,18-19,21-22,27-29,36-40,49,56H,5,11-12,17,20,23-26H2,1-4H3,(H,48,58)(H,50,60)(H,51,57)(H,54,59)(H,62,63)(H2,52,53,64)/t28-,29+,36-,37+,38+,39+,40+/m1/s1
+#inchikey RZGOIGKRVXBOMH
+#Ion_Source LC-ESI
+#Instrument LCQ
+#Compound_Source Crude
+#PI Gerwick
+#Data_Collector E Briand
+#Scan -1
+#Precursor_MZ 881.18
+#ExactMass 881.456
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles N/A
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000071762
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 6e221885dc494bf18708e4b1149ba4da
+##Scan# 473
+#SpectrumFile Ferintoic acidB_MSMS.mzXML
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism GNPS_Standard_Enora
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 881.18
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 10
+382.950317 1972.0
+387.385498 693.0
+453.949951 1922.0
+467.304626 776.0
+482.187378 1065.0
+499.975037 3587.0
+572.988037 4659.0
+573.8396 1951.0
+602.230713 1559.0
+651.074707 7500.0
+677.016602 10358.0
+686.214966 899.0
+704.358154 1315.0
+810.449219 1018.0
+853.421875 4906.0
+863.013916 5067.0

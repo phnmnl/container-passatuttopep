@@ -1,0 +1,47 @@
+>compound NCGC00160319-01!(2-Oxo-2H-chromen-7-yloxy)-phenyl-acetic acid
+>formula C17H12O5
+>ionization [M+H]+
+>parentmass 297.076
+#inchi InChI=1S/C17H12O5/c18-15-9-7-11-6-8-13(10-14(11)22-15)21-16(17(19)20)12-4-2-1-3-5-12/h1-10,16H,(H,19,20)
+#inchikey RSJIHDBGVSYSFI
+#Ion_Source LC-ESI
+#Instrument qTOF
+#Compound_Source Prestwick Phytochem Lib
+#PI Dorrestein
+#Data_Collector VVP/LMS
+#Scan -1
+#Precursor_MZ 297.076
+#ExactMass 296.068
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles OC(=O)C(OC1=CC=C2C=CC(=O)OC2=C1)C3=CC=CC=C3
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000078719
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID 67c915c6594c435cadc1fe2b5358144d
+##Scan# 1930
+#SpectrumFile p1-G02_GG2_01_17946.mzXML
+#LibraryName phytochem_lib.mgf
+#MQScore -1
+#Organism phytochem_lib
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 297.076
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+107.0488 40.81
+119.0482 15.38
+135.0438 8.5
+163.0381 100.0
+223.0753 1.27
+297.076 0.0

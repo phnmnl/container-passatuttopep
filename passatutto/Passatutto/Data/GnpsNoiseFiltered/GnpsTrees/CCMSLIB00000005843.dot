@@ -1,0 +1,17 @@
+strict digraph {
+v1 [label="C6H5O5\n158.0211 Da, 0.29 %\nMassDev: 0.7169 ppm, 0.0001 Da\ncE: [10]\nMass Deviation=-0.0701\nTreeSizeScorer=1.5000\nFragmentSizeScorer=0.4198\nIntensity=0.1263\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.1609\nLossSizeScorer=0.7807\nScore: 2.9734"];
+v2 [label="C8H7O5\n184.0364 Da, 1.38 %\nMassDev: -1.0964 ppm, -0.0002 Da\ncE: [10]\nMass Deviation=-0.1282\nTreeSizeScorer=1.5000\nFragmentSizeScorer=0.1596\nIntensity=0.6650\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-1.8203\nScore: -2.3070"];
+v3 [label="C15H9ClO3\n273.0330 Da, 5.69 %\nMassDev: 6.1960 ppm, 0.0017 Da\ncE: [10]\nMass Deviation=-1.0473\nTreeSizeScorer=1.5000\nIntensity=1.1517\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8779\nScore: 2.9726"];
+v4 [label="C16H9ClO4\n301.0243 Da, 1.37 %\nMassDev: -6.3812 ppm, -0.0019 Da\ncE: [10]\nMass Deviation=-1.0881\nTreeSizeScorer=1.5000\nIntensity=0.6617\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=1.1067\nScore: -0.5028"];
+v5 [label="C18H10ClO5\n342.0277 Da, 0.81 %\nMassDev: -3.5452 ppm, -0.0012 Da\ncE: [10]\nMass Deviation=-0.5212\nTreeSizeScorer=1.5000\nIntensity=0.4823\nFree Radical=0.0116\nLoss RDBE=-1.0986\nChemicalPriorEdgeScorer=-0.0460\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-0.3507\nScore: -2.7616"];
+v6 [label="C17H11ClFNO2\n316.0523 Da, 0.53 %\nMassDev: -3.7112 ppm, -0.0012 Da\ncE: [10]\nMass Deviation=-0.5507\nTreeSizeScorer=1.5000\nIntensity=0.3343\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 2.6520"];
+v7 [label="C18H11ClFNO3\n344.0490 Da, 100.00 %\nMassDev: 1.7016 ppm, 0.0006 Da\ncE: [10]\nMass Deviation=-0.2257\nTreeSizeScorer=1.5000\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0271\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-0.2926\nScore: 0.3652"];
+v8 [label="C23H23ClFNO5\n448.1330 Da, 0.00 %\nMassDev: 1.8852 ppm, 0.0008 Da\ncE: []\nCompoundScore: 0.8017467707188413\nStrangeElementRootScorer=-2.7726\nChemical Prior=0.1826\nScore: -2.5900"];
+v2 -> v1 [label="C2H2"];
+v5 -> v2 [label="C10H3Cl"];
+v4 -> v3 [label="CO"];
+v5 -> v4 [label="C2HO"];
+v8 -> v5 [label="C5H13FN"];
+v7 -> v6 [label="CO"];
+v8 -> v7 [label="C5H12O2"];
+}

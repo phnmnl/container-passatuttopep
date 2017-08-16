@@ -1,0 +1,15 @@
+strict digraph {
+v1 [label="C6H10\n105.0667 Da, 4.63 %\nMassDev: -7.4431 ppm, -0.0008 Da\ncE: [10]\nMass Deviation=-0.5842\nTreeSizeScorer=2.5000\nFragmentSizeScorer=0.9493\nIntensity=1.0805\nFree Radical=0.0116\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=1.1061\nScore: 2.3244"];
+v2 [label="C9H14\n145.0992 Da, 6.28 %\nMassDev: 2.6248 ppm, 0.0004 Da\ncE: [10]\nMass Deviation=-0.2547\nCommon Fragments:=-0.4875\nTreeSizeScorer=2.5000\nFragmentSizeScorer=0.5490\nIntensity=1.1856\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-2.7242\nScore: -1.9149"];
+v3 [label="C10H4O\n163.0135 Da, 6.72 %\nMassDev: -11.6582 ppm, -0.0019 Da\ncE: [10]\nMass Deviation=-1.8704\nTreeSizeScorer=2.5000\nFragmentSizeScorer=0.3699\nIntensity=1.2089\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.1354\nCommonLossEdgeScorer=0.8083\nLossSizeScorer=-2.2544\nScore: 0.6386"];
+v4 [label="C17H14O6\n337.0679 Da, 100.00 %\nMassDev: -0.9697 ppm, -0.0003 Da\ncE: [10]\nMass Deviation=-0.1324\nTreeSizeScorer=2.5000\nIntensity=2.1379\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=0.0245\nCommonLossEdgeScorer=1.5028\nLossSizeScorer=-0.4948\nScore: 5.4443"];
+v5 [label="C18H17O6\n352.0919 Da, 37.56 %\nMassDev: 0.4375 ppm, 0.0002 Da\ncE: [10]\nMass Deviation=-0.0576\nTreeSizeScorer=2.5000\nIntensity=1.8010\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0377\nCommonLossEdgeScorer=-1.1651\nLossSizeScorer=1.1067\nScore: 4.2343"];
+v6 [label="C18H18O6\n353.1011 Da, 7.49 %\nMassDev: 4.4633 ppm, 0.0016 Da\ncE: [10]\nMass Deviation=-0.7467\nTreeSizeScorer=2.5000\nIntensity=1.2463\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=1.1061\nScore: 1.4225"];
+v7 [label="C21H22O6\n393.1310 Da, 0.00 %\nMassDev: 0.3583 ppm, 0.0001 Da\ncE: []\nCompoundScore: 12.324907288307815\nChemical Prior=0.1758\nScore: 0.1758"];
+v2 -> v1 [label="C3H4"];
+v4 -> v2 [label="C8O6"];
+v4 -> v3 [label="C7H10O5"];
+v5 -> v4 [label="CH3"];
+v7 -> v5 [label="C3H5"];
+v7 -> v6 [label="C3H4"];
+}

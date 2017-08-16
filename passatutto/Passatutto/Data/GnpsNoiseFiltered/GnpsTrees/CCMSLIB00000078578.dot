@@ -1,0 +1,15 @@
+strict digraph {
+v1 [label="C6H5N\n92.0492 Da, 3.40 %\nMassDev: -2.9725 ppm, -0.0003 Da\ncE: [10]\nMass Deviation=-0.1774\nTreeSizeScorer=1.0000\nFragmentSizeScorer=1.0795\nIntensity=0.9748\nFree Radical=0.0116\nStrangeElementLossScorer=0.6931\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=0.7852\nScore: 1.6279"];
+v2 [label="C6H5NO\n108.0445 Da, 13.94 %\nMassDev: 0.9697 ppm, 0.0001 Da\ncE: [10]\nMass Deviation=-0.0647\nTreeSizeScorer=1.0000\nFragmentSizeScorer=0.9196\nIntensity=1.4600\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0115\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=1.0655\nScore: 1.6646"];
+v3 [label="C6H5NO2S\n156.0120 Da, 100.00 %\nMassDev: 4.2506 ppm, 0.0007 Da\ncE: [10]\nMass Deviation=-0.4798\nTreeSizeScorer=1.0000\nFragmentSizeScorer=0.4399\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-0.1756\nScore: 0.2392"];
+v4 [label="C6H7N\n94.0652 Da, 0.53 %\nMassDev: 0.3968 ppm, 0.0000 Da\ncE: [10]\nMass Deviation=-0.0226\nCommon Fragments:=-0.2811\nTreeSizeScorer=1.0000\nFragmentSizeScorer=1.0593\nIntensity=0.3348\nFree Radical=0.0116\nStrangeElementLossScorer=0.6931\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=0.7857\nScore: 0.8420"];
+v5 [label="C6H7NS2\n158.0078 Da, 4.60 %\nMassDev: -9.0165 ppm, -0.0014 Da\ncE: [10]\nMass Deviation=-1.2542\nTreeSizeScorer=1.0000\nFragmentSizeScorer=0.4199\nIntensity=1.0787\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-1.9516\nLossSizeScorer=-0.1185\nScore: -0.7700"];
+v6 [label="C9H7N3S\n190.0438 Da, 1.25 %\nMassDev: 2.5169 ppm, 0.0005 Da\ncE: [10]\nMass Deviation=-0.3288\nTreeSizeScorer=1.0000\nFragmentSizeScorer=0.0996\nIntensity=0.6306\nFree Radical=0.0116\nStrangeElementLossScorer=0.6931\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=0.7392\nScore: 0.1506"];
+v7 [label="C9H9N3O2S2\n256.0225 Da, 81.75 %\nMassDev: 6.3550 ppm, 0.0016 Da\ncE: [10]\nCompoundScore: -0.3933972210407868\nMass Deviation=-1.5997\nStrangeElementRootScorer=-1.3863\nChemical Prior=-1.1616\nScore: -4.1476"];
+v3 -> v1 [label="O2S"];
+v3 -> v2 [label="OS"];
+v7 -> v3 [label="C3H4N2S"];
+v5 -> v4 [label="S2"];
+v7 -> v5 [label="C3H2N2O2"];
+v7 -> v6 [label="H2O2S"];
+}

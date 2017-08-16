@@ -1,0 +1,47 @@
+>compound Piperin
+>formula C17H19NO3
+>ionization [M+H]+
+>parentmass 286.1437699200905
+#inchi InChI=1S/C17H19NO3/c19-17(18-10-4-1-5-11-18)7-3-2-6-14-8-9-15-16(12-14)21-13-20-15/h2-3,6-9,12H,1,4-5,10-11,13H2/b6-2+,7-3+
+#inchikey MXXWOMGUGJBKIW
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 286.117
+#ExactMass 285.137
+#Charge 1
+#CAS_Number 94-62-2
+#Pubmed_ID N/A
+#Smiles O=C(/C=C/C=C/C1=CC=C(OCO2)C2=C1)N3CCCCC3
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081712
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 52bd5f0db6314c93924d5ce5c86348eb
+##Scan# 1
+#SpectrumFile gnps_Piperin_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05_V02
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 286.117
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+115.0435 38.16
+131.0371 0.74
+135.0298 46.48
+143.0348 51.36
+159.0301 12.98
+286.1438 0.0

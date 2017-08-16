@@ -1,0 +1,17 @@
+strict digraph {
+v1 [label="C14H9O5\n258.0531 Da, 1.89 %\nMassDev: 3.0814 ppm, 0.0008 Da\ncE: [10]\nMass Deviation=-0.4422\nTreeSizeScorer=2.5000\nIntensity=0.7732\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 4.1994"];
+v2 [label="C15H9O6\n286.0486 Da, 11.82 %\nMassDev: 5.0884 ppm, 0.0015 Da\ncE: [10]\nMass Deviation=-0.8126\nTreeSizeScorer=2.5000\nIntensity=1.4032\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=0.0148\nCommonLossEdgeScorer=1.5028\nLossSizeScorer=-0.4946\nScore: 4.0199"];
+v3 [label="C16H12O6\n301.0736 Da, 100.00 %\nMassDev: 9.6769 ppm, 0.0029 Da\ncE: [10]\nMass Deviation=-1.9291\nTreeSizeScorer=2.5000\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0014\nCommonLossEdgeScorer=1.2307\nLossSizeScorer=-1.9311\nScore: 2.0185"];
+v4 [label="C3O6\n132.9748 Da, 0.27 %\nMassDev: -14.7108 ppm, -0.0020 Da\ncE: [10]\nMass Deviation=-1.9495\nTreeSizeScorer=2.5000\nFragmentSizeScorer=0.6703\nIntensity=0.1056\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.3714\nLossSizeScorer=-1.7127\nScore: 0.0408"];
+v5 [label="C15H10O6\n287.0523 Da, 2.40 %\nMassDev: -9.5366 ppm, -0.0027 Da\ncE: [10]\nMass Deviation=-1.8896\nTreeSizeScorer=2.5000\nIntensity=0.8548\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=0.0186\nCommonLossEdgeScorer=1.5028\nLossSizeScorer=-0.4947\nScore: 2.3983"];
+v6 [label="C16H13O6\n302.0766 Da, 19.21 %\nMassDev: -6.3580 ppm, -0.0019 Da\ncE: [10]\nMass Deviation=-1.0829\nTreeSizeScorer=2.5000\nIntensity=1.5703\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0131\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-1.9038\nScore: -1.6306"];
+v7 [label="C22H22O11\n463.1244 Da, 2.09 %\nMassDev: 2.0125 ppm, 0.0009 Da\ncE: [10]\nMass Deviation=-0.2715\nTreeSizeScorer=2.5000\nIntensity=0.8066\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0327\nCommonLossEdgeScorer=0.8559\nLossSizeScorer=-1.4902\nScore: 2.4451"];
+v8 [label="C28H32O15\n609.1820 Da, 0.00 %\nMassDev: 0.9902 ppm, 0.0006 Da\ncE: []\nCompoundScore: 13.688700289391006\nChemical Prior=0.1974\nScore: 0.1974"];
+v2 -> v1 [label="CO"];
+v3 -> v2 [label="CH3"];
+v7 -> v3 [label="C6H10O5"];
+v5 -> v4 [label="C12H10"];
+v6 -> v5 [label="CH3"];
+v7 -> v6 [label="C6H9O5"];
+v8 -> v7 [label="C6H10O4"];
+}

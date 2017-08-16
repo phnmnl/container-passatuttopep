@@ -1,0 +1,56 @@
+>compound 2-[(4,6-diamino-1,3,5-triazin-2-yl)thio]-Ethanesulfonic acid
+>formula C5H9N5O3S2
+>ionization [M+Na]+
+>parentmass 274.0039018480905
+#inchi InChI=1S/C5H9N5O3S2/c6-3-8-4(7)10-5(9-3)14-1-2-15(11,12)13/h1-2H2,(H,11,12,13)(H4,6,7,8,9,10)
+#inchikey VOWJSEYJDXBICY
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Commercial
+#PI Norberto Lopes
+#Data_Collector Norberto Lopes
+#Scan -1
+#Precursor_MZ 274.0
+#ExactMass 251.015
+#Charge 1
+#CAS_Number 1391054-56-0
+#Pubmed_ID N/A
+#Smiles NC1=NC(SCCS(=O)(O)=O)=NC(N)=N1
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081566
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 4a07f16a650f4095b43fe6b0b09ff8bb
+##Scan# 1
+#SpectrumFile gnps_2_4_6_diamino_1_3_5_triazin_2_yl_thio_Ethanesulfonic_acid_pos_MplusNa.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 274
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+128.0244 4.67
+144.0279 26.98
+145.0298 1.46
+166.0105 32.7
+168.0067 1.9
+170.046 68.06
+172.0396 3.65
+184.9822 1.39
+199.9859 1.93
+202.0186 1.22
+202.9938 2.99
+215.9614 5.88
+216.968 1.99
+233.9726 3.35
+274.0039 0.0

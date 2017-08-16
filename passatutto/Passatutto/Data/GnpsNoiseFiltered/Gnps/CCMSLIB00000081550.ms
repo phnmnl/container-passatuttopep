@@ -1,0 +1,46 @@
+>compound 8,9-Dihydropiplartine
+>formula C17H21NO5
+>ionization [M+Na]+
+>parentmass 342.1311934720905
+#inchi InChI=1S/C17H21NO5/c1-21-13-10-12(11-14(22-2)17(13)23-3)7-8-16(20)18-9-5-4-6-15(18)19/h4,6,10-11H,5,7-9H2,1-3H3
+#inchikey WAGZSQGCUXDBOA
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Monica Pupo
+#Scan -1
+#Precursor_MZ 342.128
+#ExactMass 319.142
+#Charge 1
+#CAS_Number 137760-69-1
+#Pubmed_ID N/A
+#Smiles O=C(N1CCC=CC1=O)CCC2=CC(OC)=C(OC)C(OC)=C2
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081550
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 4a07f16a650f4095b43fe6b0b09ff8bb
+##Scan# 1
+#SpectrumFile gnps_8_9_Dihydropiplartine_pos_MplusNa.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 342.128
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+181.0839 100.0
+190.0594 4.58
+208.0715 4.44
+223.0947 45.87
+342.1312 0.0

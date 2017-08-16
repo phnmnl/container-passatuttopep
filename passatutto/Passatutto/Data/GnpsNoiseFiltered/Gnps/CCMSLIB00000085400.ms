@@ -1,0 +1,47 @@
+>compound MLS002153371-01!9-Cyclopentyladenine monomethanesulfonate
+>formula C10H13N5
+>ionization [M+H]+
+>parentmass 204.124741
+#inchi InChI=1S/C10H13N5/c11-9-8-10(13-5-12-9)15(6-14-8)7-3-1-2-4-7/h5-7H,1-4H2,(H2,11,12,13)
+#inchikey KTJWHJNBTXITCB
+#origInchi InChI=1S/C10H13N5.CH4O3S/c11-9-8-10(13-5-12-9)15(6-14-8)7-3-1-2-4-7;1-5(2,3)4/h5-7H,1-4H2,(H2,11,12,13);1H3,(H,2,3,4)
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Pharmacologically Active Library
+#PI Dorrestein
+#Data_Collector VP/LMS
+#Scan -1
+#Precursor_MZ 204.126
+#ExactMass 203.117
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles Nc1ncnc2n(cnc12)C3CCCC3.CS(=O)(=O)O
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000085400
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID d252d724072548979f1f6f1ced849daf
+##Scan# 1190
+#SpectrumFile p4-A04_GA4_01_18328.mzXML
+#LibraryName Pharm_Active_Library.mgf
+#MQScore -1
+#Organism Pharm_Active_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 204.126
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+92.0237 1.13
+109.0512 3.03
+119.0361 65.66
+136.063 100.0
+204.1247 3.12

@@ -1,0 +1,53 @@
+>compound Procyanidin B2
+>formula C30H26O12
+>ionization [M+Na]+
+>parentmass 601.1316469720905
+#inchi InChI=1S/C30H26O12/c31-13-7-20(37)24-23(8-13)41-29(12-2-4-16(33)19(36)6-12)27(40)26(24)25-21(38)10-17(34)14-9-22(39)28(42-30(14)25)11-1-3-15(32)18(35)5-11/h1-8,10,22,26-29,31-40H,9H2/t22-,26-,27-,28-,29-/m1/s1
+#inchikey XFZJEEAOWLFHDH
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 601.089
+#ExactMass 578.142
+#Charge 1
+#CAS_Number 29106-49-8
+#Pubmed_ID N/A
+#Smiles O[C@@H]([C@@H](C1=CC=C(O)C(O)=C1)O2)CC3=C2C([C@@H]4[C@@H](O)[C@@H](C5=CC=C(O)C(O)=C5)OC6=C4C(O)=CC(O)=C6)=C(O)C=C3O
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081690
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 52bd5f0db6314c93924d5ce5c86348eb
+##Scan# 1
+#SpectrumFile gnps_ProcyanidinB2_pos_MplusNa.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05_V02
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 601.089
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 10
+203.013901 101.0
+269.020935 219.0
+279.001038 311.0
+297.014679 345.0
+311.029022 2960.0
+313.042328 1463.0
+323.029205 282.0
+329.034607 146.0
+352.051971 128.0
+431.040405 519.0
+449.053589 2888.0
+601.088562 3110.0

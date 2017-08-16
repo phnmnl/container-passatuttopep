@@ -1,0 +1,46 @@
+>compound N-(2,5-dioxocyclopentyl)acetamide
+>formula C7H9NO3
+>ionization [M+H]+
+>parentmass 156.0655196000905
+#inchi InChI=1S/C7H9NO3/c1-4(9)8-7-5(10)2-3-6(7)11/h7H,2-3H2,1H3,(H,8,9)
+#inchikey QVZXVDWBZHYCGL
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 156.062
+#ExactMass 155.058
+#Charge 1
+#CAS_Number 4417-06-05
+#Pubmed_ID N/A
+#Smiles O=C(CC1)C(NC(C)=O)C1=O
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081734
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 52bd5f0db6314c93924d5ce5c86348eb
+##Scan# 1
+#SpectrumFile gnps_N_2_5_dioxocyclopentyl_acetamide_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05_V02
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 156.062
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 10
+114.050499 95068.0
+115.055267 4254.0
+138.051697 94006.0
+139.054764 4592.0
+156.061554 6922.0

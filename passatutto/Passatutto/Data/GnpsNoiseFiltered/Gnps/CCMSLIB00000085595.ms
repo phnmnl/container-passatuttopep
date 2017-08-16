@@ -1,0 +1,47 @@
+>compound MLS002153442-01!U-101958 maleate salt
+>formula C21H29N3O
+>ionization [M+H]+
+>parentmass 340.237671
+#inchi InChI=1S/C21H29N3O/c1-17(2)25-20-10-7-13-22-21(20)23(3)19-11-14-24(15-12-19)16-18-8-5-4-6-9-18/h4-10,13,17,19H,11-12,14-16H2,1-3H3
+#inchikey WFLHEXUTTRRXFJ
+#origInchi InChI=1S/C21H29N3O.C4H4O4/c1-17(2)25-20-10-7-13-22-21(20)23(3)19-11-14-24(15-12-19)16-18-8-5-4-6-9-18;5-3(6)1-2-4(7)8/h4-10,13,17,19H,11-12,14-16H2,1-3H3;1-2H,(H,5,6)(H,7,8)/p-2/b;2-1-
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Pharmacologically Active Library
+#PI Dorrestein
+#Data_Collector VP/LMS
+#Scan -1
+#Precursor_MZ 340.244
+#ExactMass 339.231
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles CC(C)Oc1cccnc1N(C)C2CCN(Cc3ccccc3)CC2.[O-]C(=O)/C=C\C(=O)[O-]
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000085595
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID d252d724072548979f1f6f1ced849daf
+##Scan# 1279
+#SpectrumFile p4-D02_GD2_01_18362.mzXML
+#LibraryName Pharm_Active_Library.mgf
+#MQScore -1
+#Organism Pharm_Active_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 340.244
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+91.0545 32.88
+143.086 1.55
+174.1279 100.0
+298.1906 6.26
+340.2377 0.81

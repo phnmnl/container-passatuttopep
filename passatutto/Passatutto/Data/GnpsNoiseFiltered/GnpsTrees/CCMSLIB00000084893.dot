@@ -1,0 +1,17 @@
+strict digraph {
+v1 [label="C6H2O2\n107.0125 Da, 0.22 %\nMassDev: -2.4928 ppm, -0.0003 Da\ncE: [10]\nMass Deviation=-0.1727\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.9299\nIntensity=0.0356\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0432\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 1.6604"];
+v2 [label="C7H2O3\n135.0088 Da, 0.50 %\nMassDev: 8.6263 ppm, 0.0012 Da\ncE: [10]\nMass Deviation=-0.9613\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.6499\nIntensity=0.3120\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8780\nScore: 0.8690"];
+v3 [label="C8H2O4\n163.0024 Da, 19.95 %\nMassDev: -1.1595 ppm, -0.0002 Da\ncE: [10]\nMass Deviation=-0.1196\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.3700\nIntensity=1.5833\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 2.7021"];
+v4 [label="C9H2O5\n190.9981 Da, 8.34 %\nMassDev: 2.9444 ppm, 0.0006 Da\ncE: [10]\nMass Deviation=-0.3957\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.0900\nIntensity=1.2832\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0343\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=1.1061\nScore: -1.1094"];
+v5 [label="C11H6O4\n203.0340 Da, 1.70 %\nMassDev: 0.5510 ppm, 0.0001 Da\ncE: [10]\nMass Deviation=-0.0685\nTreeSizeScorer=-0.5000\nIntensity=0.7363\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 1.5362"];
+v6 [label="C12H6O5\n231.0293 Da, 100.00 %\nMassDev: 2.0182 ppm, 0.0005 Da\ncE: [10]\nMass Deviation=-0.2730\nTreeSizeScorer=-0.5000\nIntensity=2.1379\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=0.0097\nCommonLossEdgeScorer=1.5028\nLossSizeScorer=-0.4952\nScore: 2.2885"];
+v7 [label="C13H9O5\n246.0511 Da, 4.77 %\nMassDev: -4.5838 ppm, -0.0011 Da\ncE: [10]\nMass Deviation=-0.7135\nTreeSizeScorer=-0.5000\nIntensity=1.0911\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=0.0194\nCommonLossEdgeScorer=1.5028\nLossSizeScorer=-0.4942\nScore: 0.8119"];
+v8 [label="C14H12O5\n261.0778 Da, 0.51 %\nMassDev: 7.9289 ppm, 0.0021 Da\ncE: [10]\nCompoundScore: 6.73267342516031\nMass Deviation=-2.1946\nChemical Prior=0.1687\nScore: -2.0259"];
+v2 -> v1 [label="CO"];
+v3 -> v2 [label="CO"];
+v4 -> v3 [label="CO"];
+v6 -> v4 [label="C3H4"];
+v6 -> v5 [label="CO"];
+v7 -> v6 [label="CH3"];
+v8 -> v7 [label="CH3"];
+}

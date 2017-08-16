@@ -1,0 +1,15 @@
+strict digraph {
+v1 [label="C8H6N2O\n147.0552 Da, 1.07 %\nMassDev: -0.4574 ppm, -0.0001 Da\ncE: [10]\nMass Deviation=-0.0411\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.5294\nIntensity=0.5784\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0167\nCommonLossEdgeScorer=-1.1845\nLossSizeScorer=0.9102\nScore: 0.3208"];
+v2 [label="C8H6N2\n131.0600 Da, 1.49 %\nMassDev: -2.5305 ppm, -0.0003 Da\ncE: [10]\nMass Deviation=-0.2187\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.6894\nIntensity=0.6901\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 2.0292"];
+v3 [label="C9H6N2O\n159.0554 Da, 10.30 %\nMassDev: 0.4384 ppm, 0.0001 Da\ncE: [10]\nMass Deviation=-0.0426\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.4094\nIntensity=1.3561\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8780\nScore: 2.5913"];
+v4 [label="C10H6N2O2\n187.0495 Da, 57.85 %\nMassDev: -3.6829 ppm, -0.0007 Da\ncE: [10]\nMass Deviation=-0.5019\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.1295\nIntensity=1.9496\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0209\nCommonLossEdgeScorer=1.4335\nLossSizeScorer=0.0330\nScore: 2.5345"];
+v5 [label="C10H8N2O3\n205.0594 Da, 6.95 %\nMassDev: -6.8837 ppm, -0.0014 Da\ncE: [10]\nMass Deviation=-1.2059\nTreeSizeScorer=-0.5000\nIntensity=1.2205\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0252\nCommonLossEdgeScorer=-1.0255\nLossSizeScorer=0.8796\nScore: -0.5944"];
+v6 [label="C12H10N2O2\n215.0799 Da, 100.00 %\nMassDev: -7.4810 ppm, -0.0016 Da\ncE: [10]\nMass Deviation=-1.3488\nTreeSizeScorer=-0.5000\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0010\nCommonLossEdgeScorer=1.4335\nLossSizeScorer=0.0332\nScore: 1.7665"];
+v7 [label="C12H12N2O3\n233.0909 Da, 33.02 %\nMassDev: -4.8337 ppm, -0.0011 Da\ncE: [10]\nCompoundScore: 7.721204829273385\nMass Deviation=-1.1039\nChemical Prior=0.1772\nScore: -0.9267"];
+v5 -> v1 [label="C2H2O2"];
+v3 -> v2 [label="CO"];
+v4 -> v3 [label="CO"];
+v5 -> v4 [label="H2O"];
+v7 -> v5 [label="C2H4"];
+v7 -> v6 [label="H2O"];
+}

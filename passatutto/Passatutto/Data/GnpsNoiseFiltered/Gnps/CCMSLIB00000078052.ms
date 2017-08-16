@@ -1,0 +1,46 @@
+>compound Clafen (Cyclophosphamide)
+>formula C7H15Cl2N2O2P
+>ionization [M+Na]+
+>parentmass 283.015045
+#inchi InChI=1S/C7H15Cl2N2O2P/c8-2-5-11(6-3-9)14(12)10-4-1-7-13-14/h1-7H2,(H,10,12)
+#inchikey CMSMOCZEIVJLDB
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source Commercial
+#PI Dorrestein
+#Data_Collector Garg_Neha
+#Scan -1
+#Precursor_MZ 283.014
+#ExactMass 260.025
+#Charge 1
+#CAS_Number 50-18-0, 60007-95-6, 75526-90-8
+#Pubmed_ID N/A
+#Smiles C1COP(NC1)(=O)N(CCCl)CCCl
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000078052
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID 77f51c88eb8b467eb4a01dd2d0cb90d2
+##Scan# 1137
+#SpectrumFile Plate1_41_60_GG3_01_16490.mzXML
+#LibraryName FDALibrary_2_04302014.mgf
+#MQScore -1
+#Organism FDALibrary_2_04302014
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 283.014
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+106.0404 2.01
+108.0412 0.85
+177.9782 1.54
+247.0394 2.06
+283.015 93.16

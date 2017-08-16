@@ -1,0 +1,47 @@
+>compound MLS002153841-01!Iobenguane sulfate
+>formula C8H10IN3
+>ionization [M+H]+
+>parentmass 275.99826
+#inchi InChI=1S/C8H10IN3/c9-7-3-1-2-6(4-7)5-12-8(10)11/h1-4H,5H2,(H4,10,11,12)
+#inchikey PDWUPXJEEYOOTR
+#origInchi InChI=1S/C8H10IN3.H2O4S/c9-7-3-1-2-6(4-7)5-12-8(10)11;1-5(2,3)4/h1-4H,5H2,(H4,10,11,12);(H2,1,2,3,4)
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Pharmacologically Active Library
+#PI Dorrestein
+#Data_Collector VP/LMS
+#Scan -1
+#Precursor_MZ 276.003
+#ExactMass 274.992
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles NC(=N)NCc1cccc(I)c1.OS(=O)(=O)O
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000086167
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID d252d724072548979f1f6f1ced849daf
+##Scan# 1318
+#SpectrumFile p5-G05_GG5_01_18474.mzXML
+#LibraryName Pharm_Active_Library.mgf
+#MQScore -1
+#Organism Pharm_Active_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 276.003
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+89.0396 5.99
+90.0464 3.45
+131.0591 0.27
+216.9514 100.0
+275.9983 5.62
