@@ -1,0 +1,46 @@
+>compound Propentofylline
+>formula C15H22N4O3
+>ionization [M+H]+
+>parentmass 307.1764670160905
+#inchi InChI=1S/C15H22N4O3/c1-4-8-18-10-16-13-12(18)14(21)19(15(22)17(13)3)9-6-5-7-11(2)20/h10H,4-9H2,1-3H3
+#inchikey RBQOQRRFDPXAGN
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Commercial
+#PI Norberto Lopes
+#Data_Collector Norberto Lopes
+#Scan -1
+#Precursor_MZ 307.169
+#ExactMass 306.169
+#Charge 1
+#CAS_Number 55242-55-2
+#Pubmed_ID N/A
+#Smiles CCCN1C=NC2=C1C(N(CCCCC(C)=O)C(N2C)=O)=O
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081603
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 4a07f16a650f4095b43fe6b0b09ff8bb
+##Scan# 1
+#SpectrumFile gnps_Propentofylline_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 307.169
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+138.1005 12.56
+168.0548 4.2
+209.097 100.0
+210.0995 7.41
+307.1765 0.0

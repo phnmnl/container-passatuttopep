@@ -1,0 +1,43 @@
+>compound NCGC00160256-01!Sparteine-15-carboxylic acid
+>formula C16H26N2O2
+>ionization [M+H]+
+>parentmass 279.207
+#inchi InChI=1S/C16H26N2O2/c19-16(20)15-6-3-5-14-11-8-12(10-18(14)15)13-4-1-2-7-17(13)9-11/h11-15H,1-10H2,(H,19,20)/t11-,12+,13+,14-,15?/m1/s1
+#inchikey FNCNQQDYISRCJG
+#Ion_Source LC-ESI
+#Instrument qTOF
+#Compound_Source Prestwick Phytochem Lib
+#PI Dorrestein
+#Data_Collector VVP/LMS
+#Scan -1
+#Precursor_MZ 279.207
+#ExactMass 278.199
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles OC(=O)C1CCC[C@@H]2[C@@H]3C[C@@H](C[N@@]12)[C@@H]4CCCCN4C3
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000078784
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID 67c915c6594c435cadc1fe2b5358144d
+##Scan# 2671
+#SpectrumFile p1-A04_GA4_01_17877.mzXML
+#LibraryName phytochem_lib.mgf
+#MQScore -1
+#Organism phytochem_lib
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 279.207
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+121.0278 12.57
+279.207 0.0

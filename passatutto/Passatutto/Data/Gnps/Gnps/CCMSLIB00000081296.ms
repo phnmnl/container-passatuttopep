@@ -1,0 +1,64 @@
+>compound rel-Dimethylenedioxy-dimethoxy-epoxylignan
+>formula C22H24O7
+>ionization [M+H]+
+>parentmass 401.1594795600905
+#inchi InChI=1S/C22H24O7/c1-11-12(2)20(14-6-16(24-4)22-18(8-14)26-10-28-22)29-19(11)13-5-15(23-3)21-17(7-13)25-9-27-21/h5-8,11-12,19-20H,9-10H2,1-4H3/t11-,12-,19-,20+/m0/s1
+#inchikey ISBKEYQPAWAMRF
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 401.152
+#ExactMass 400.152
+#Charge 1
+#CAS_Number 1009642-58-3
+#Pubmed_ID  
+#Smiles COC1=C(OCO2)C2=CC([C@H]3[C@@H](C)[C@H](C)[C@@H](C4=CC(OC)=C(OCO5)C5=C4)O3)=C1
+#INCHI_AUX  
+#Library_Class 3
+#SpectrumID CCMSLIB00000081296
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 03d7337a7bbe4a97b96179f77e4448dc
+##Scan# 1
+#SpectrumFile gnps_rel_7R_8S_7_S_8_S_4_5_4_5_dimethylenedioxy_3_30_dimethoxy_7_7_epoxylignan_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism gnps_library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 401.152
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 10
+153.051743 308.0
+163.069565 145.0
+165.049179 5475.0
+166.051346 276.0
+179.065582 3105.0
+180.067764 183.0
+181.045059 2081.0
+182.047867 161.0
+183.385513 125.0
+193.080566 2519.0
+194.081238 231.0
+201.084595 611.0
+209.073318 524.0
+216.070831 110.0
+219.093124 511.0
+221.110626 676.0
+231.093796 6108.0
+232.098557 531.0
+235.090363 112.0
+249.106384 6193.0
+353.130554 168.0
+383.140442 2213.0
+401.15155 1794.0

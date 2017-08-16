@@ -1,0 +1,5 @@
+strict digraph {
+v1 [label="C10H14O6\n231.0883 Da, 1.68 %\nMassDev: 8.4703 ppm, 0.0020 Da\ncE: [10]\nMass Deviation=-1.5999\nTreeSizeScorer=5.5000\nIntensity=0.7319\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-1.4343\nScore: 0.5146"];
+v2 [label="C20H22O7\n375.1438 Da, 0.00 %\nMassDev: 0.0000 ppm, 0.0000 Da\ncE: []\nCompoundScore: 0.7058771242932954\nChemical Prior=0.1913\nScore: 0.1913"];
+v2 -> v1 [label="C10H8O"];
+}

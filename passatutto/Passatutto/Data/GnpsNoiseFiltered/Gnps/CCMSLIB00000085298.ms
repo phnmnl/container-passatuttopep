@@ -1,0 +1,47 @@
+>compound MLS000083578-01!Ticlopidine Hydrochloride
+>formula C14H14ClNS
+>ionization [M+H]+
+>parentmass 264.0608245800905
+#inchi InChI=1S/C14H14ClNS/c15-13-4-2-1-3-11(13)9-16-7-5-14-12(10-16)6-8-17-14/h1-4,6,8H,5,7,9-10H2
+#inchikey PHWBOXQYWZNQIN
+#origInchi InChI=1S/C14H14ClNS.ClH/c15-13-4-2-1-3-11(13)9-16-7-5-14-12(10-16)6-8-17-14;/h1-4,6,8H,5,7,9-10H2;1H
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Pharmacologically Active Library
+#PI Dorrestein
+#Data_Collector VP/LMS
+#Scan -1
+#Precursor_MZ 264.057
+#ExactMass 263.054
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles Clc1ccccc1CN2CCc3sccc3C2.Cl
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000085298
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID d252d724072548979f1f6f1ced849daf
+##Scan# 1443
+#SpectrumFile p3-H02_GH2_01_18307.mzXML
+#LibraryName Pharm_Active_Library.mgf
+#MQScore -1
+#Organism Pharm_Active_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 264.057
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+89.0382 0.79
+99.0003 1.65
+125.0156 100.0
+154.0416 6.78
+264.0608 0.0

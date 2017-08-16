@@ -1,0 +1,52 @@
+>compound 3,4,5-Trimethoxy_ cinnamic acid
+>formula C12H14O5
+>ionization [M+H]+
+>parentmass 239.09053
+#inchi InChI=1S/C12H14O5/c1-15-9-6-8(4-5-11(13)14)7-10(16-2)12(9)17-3/h4-7H,1-3H3,(H,13,14)/b5-4+
+#inchikey YTFVRYKNXDADBI
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Monica Pupo
+#Scan -1
+#Precursor_MZ 239.091
+#ExactMass 238.084
+#Charge 1
+#CAS_Number 90-50-6
+#Pubmed_ID N/A
+#Smiles O=C(O)/C=C/C1=CC(OC)=C(OC)C(OC)=C1
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081545
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 4a07f16a650f4095b43fe6b0b09ff8bb
+##Scan# 1
+#SpectrumFile gnps_3_4_5_Trimethoxycinnamic_acid_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 239.091
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+119.0472 0.99
+147.0423 7.74
+162.0661 15.18
+188.0465 1.57
+191.033 33.83
+193.0855 40.76
+205.0495 1.83
+206.0566 39.39
+221.0802 100.0
+224.0681 1.53
+239.0905 2.23

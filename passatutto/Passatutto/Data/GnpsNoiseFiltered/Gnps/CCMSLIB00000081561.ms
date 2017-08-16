@@ -1,0 +1,57 @@
+>compound 1-cyclopropyl-6,7-difluoro-1,4-dihydro-8-hydroxy-4-oxo-3-Quinoline-3-carboxylic acid
+>formula C13H9F2NO4
+>ionization [M+H]+
+>parentmass 282.05724066009054
+#inchi InChI=1S/C13H9F2NO4/c14-8-3-6-10(12(18)9(8)15)16(5-1-2-5)4-7(11(6)17)13(19)20/h3-5,18H,1-2H2,(H,19,20)
+#inchikey NTWOKQCCNHKEIU
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Commercial
+#PI Norberto Lopes
+#Data_Collector Norberto Lopes
+#Scan -1
+#Precursor_MZ 282.051
+#ExactMass 281.05
+#Charge 1
+#CAS_Number 294644-90-9
+#Pubmed_ID N/A
+#Smiles FC1=C(F)C=C(C(C(C(O)=O)=CN2C3CC3)=O)C2=C1O
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081561
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 4a07f16a650f4095b43fe6b0b09ff8bb
+##Scan# 1
+#SpectrumFile gnps_1_cyclopropyl_6_7_difluoro_1_4_dihydro_8_hydroxy_4_oxo_3_Quinoline_3_carboxylic_acid_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 282.051
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+139.0166 7.29
+140.0297 2.04
+150.0194 3.55
+151.0229 2.09
+156.0251 2.84
+167.0232 5.8
+176.0461 2.56
+188.0432 5.95
+195.0075 10.26
+196.0526 19.69
+208.0525 8.27
+216.037 2.62
+222.0322 3.84
+223.0058 8.11
+236.0463 24.4
+282.0572 0.0

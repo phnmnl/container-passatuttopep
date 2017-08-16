@@ -1,0 +1,52 @@
+>compound Amphotericin B
+>formula C47H73NO17
+>ionization [M+H]+
+>parentmass 924.4951263280905
+#inchi InChI=1S/C47H73NO17/c1-27-17-15-13-11-9-7-5-6-8-10-12-14-16-18-34(64-46-44(58)41(48)43(57)30(4)63-46)24-38-40(45(59)60)37(54)26-47(61,65-38)25-33(51)22-36(53)35(52)20-19-31(49)21-32(50)23-39(55)62-29(3)28(2)42(27)56/h5-18,27-38,40-44,46,49-54,56-58,61H,19-26,48H2,1-4H3,(H,59,60)/b6-5+,9-7+,10-8+,13-11+,14-12+,17-15+,18-16+/t27-,28-,29-,30+,31+,32+,33-,34-,35+,36+,37-,38-,40+,41-,42+,43+,44-,46-,47+/m0/s1
+#inchikey APKFDSVGJQXUKY
+#Ion_Source DI-ESI
+#Instrument Ion Trap
+#Compound_Source commercial
+#PI Dorrestein/Moore
+#Data_Collector Roland Kersten
+#Scan -1
+#Precursor_MZ 925.0
+#ExactMass 923.488
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles C[C@H]1/C=C/C=C/C=C/C=C/C=C/C=C/C=C/[C@@H](C[C@H]2[C@@H]([C@H](C[C@](O2)(C[C@H](C[C@H]([C@@H](CC[C@H](C[C@H](CC(=O)O[C@H]([C@@H]([C@@H]1O)C)C)O)O)O)O)O)O)O)C(=O)O)O[C@H]3[C@H]([C@H]([C@@H]([C@H](O3)C)O)N)O
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000075331
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 216f7e25eb284d139eda10f0ea06e32c
+##Scan# 15
+#SpectrumFile Amphotericin_B_IT_925mz.mzXML
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism empty
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 925
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+569.2043 0.28
+653.2604 0.52
+671.2663 1.22
+689.3051 1.5
+707.2332 2.01
+742.3684 0.76
+743.1447 23.57
+760.4481 0.97
+761.1543 5.01
+825.4508 0.22
+924.4951 0.0

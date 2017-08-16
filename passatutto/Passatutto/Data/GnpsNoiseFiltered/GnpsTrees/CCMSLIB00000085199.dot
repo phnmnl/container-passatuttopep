@@ -1,0 +1,11 @@
+strict digraph {
+v1 [label="C8H6\n103.0536 Da, 100.00 %\nMassDev: -5.8188 ppm, -0.0006 Da\ncE: [10]\nMass Deviation=-0.4263\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.9695\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0406\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 3.5459"];
+v2 [label="C7H4O\n105.0338 Da, 8.15 %\nMassDev: 2.4830 ppm, 0.0003 Da\ncE: [10]\nMass Deviation=-0.1685\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.9497\nIntensity=1.2755\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.1609\nLossSizeScorer=0.7807\nScore: 2.5540"];
+v3 [label="C9H6O\n131.0487 Da, 30.17 %\nMassDev: -3.0848 ppm, -0.0004 Da\ncE: [10]\nMass Deviation=-0.2722\nCommon Fragments:=-0.0780\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.6895\nIntensity=1.7256\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-0.7818\nLossSizeScorer=0.4363\nScore: 1.2753"];
+v4 [label="C14H9O\n194.0730 Da, 1.98 %\nMassDev: 1.8119 ppm, 0.0004 Da\ncE: [10]\nMass Deviation=-0.2332\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.0593\nIntensity=0.7883\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=-0.0168\nCommonLossEdgeScorer=1.5028\nLossSizeScorer=-0.4947\nScore: 1.0119"];
+v5 [label="C15H12O\n209.0971 Da, 0.60 %\nMassDev: 4.6368 ppm, 0.0010 Da\ncE: [10]\nCompoundScore: 7.4190017269566315\nMass Deviation=-1.0458\nChemical Prior=0.0777\nScore: -0.9681"];
+v3 -> v1 [label="CO"];
+v3 -> v2 [label="C2H2"];
+v5 -> v3 [label="C6H6"];
+v5 -> v4 [label="CH3"];
+}

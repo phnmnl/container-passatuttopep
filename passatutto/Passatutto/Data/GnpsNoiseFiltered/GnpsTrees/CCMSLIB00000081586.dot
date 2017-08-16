@@ -1,0 +1,9 @@
+strict digraph {
+v1 [label="C16H6F2O\n275.0281 Da, 19.34 %\nMassDev: 0.6692 ppm, 0.0002 Da\ncE: [10]\nMass Deviation=-0.0913\nTreeSizeScorer=5.5000\nIntensity=1.5727\nFree Radical=0.0116\nLoss RDBE=-2.9957\nChemicalPriorEdgeScorer=-0.1582\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=0.6166\nScore: 1.7169"];
+v2 [label="C15H9O4\n276.0386 Da, 17.97 %\nMassDev: -2.5340 ppm, -0.0007 Da\ncE: [10]\nMass Deviation=-0.3880\nTreeSizeScorer=5.5000\nIntensity=1.5473\nFree Radical=0.0116\nLoss RDBE=-2.9957\nStrangeElementLossScorer=0.6931\nChemicalPriorEdgeScorer=-0.0754\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=0.6417\nScore: 2.1958"];
+v3 [label="C15H6FNO3\n290.0202 Da, 32.42 %\nMassDev: -7.6545 ppm, -0.0022 Da\ncE: [10]\nMass Deviation=-1.5493\nTreeSizeScorer=5.5000\nIntensity=1.7504\nFree Radical=0.0116\nLoss RDBE=-2.9957\nChemicalPriorEdgeScorer=-0.1294\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=0.9465\nScore: 0.7951"];
+v4 [label="C16H15F2NO4\n346.0861 Da, 0.00 %\nMassDev: 0.0000 ppm, 0.0000 Da\ncE: []\nCompoundScore: 3.5135824280456145\nStrangeElementRootScorer=-1.3863\nChemical Prior=0.1922\nScore: -1.1941"];
+v4 -> v1 [label="H9NO3"];
+v4 -> v2 [label="CH6F2N"];
+v4 -> v3 [label="CH9FO"];
+}

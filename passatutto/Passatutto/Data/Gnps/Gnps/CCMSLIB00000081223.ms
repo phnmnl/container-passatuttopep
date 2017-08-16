@@ -1,0 +1,72 @@
+>compound 8-Oxoerythraline
+>formula C18H17NO4
+>ionization [M+H]+
+>parentmass 312.12303447609054
+#inchi InChI=1S/C18H17NO4/c1-21-13-3-2-12-7-17(20)19-5-4-11-6-15-16(23-10-22-15)8-14(11)18(12,19)9-13/h2-3,6-8,13H,4-5,9-10H2,1H3
+#inchikey RNCIERMYMLFYAO
+#Ion_Source DI-ESI
+#Instrument Ion Trap
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 280.1
+#ExactMass 311.116
+#Charge 1
+#CAS_Number 58779-40-1
+#Pubmed_ID  
+#Smiles COC(C=CC1=C2)CC31C4=CC5=C(OCO5)C=C4CCN3C2=O
+#INCHI_AUX  
+#Library_Class 3
+#SpectrumID CCMSLIB00000081223
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 81fcde4ed05748f6804df55524bf6977
+##Scan# 1
+#SpectrumFile gnps_8-Oxoerythraline_posMplusHminusCH3OH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism gnps_library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 280.1
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 10
+119.018997 34908.0
+121.043999 2781.0
+130.947006 2680.0
+132.044998 2549.0
+135.035995 6759.0
+137.072998 6148.0
+146.014999 2267.0
+149.014999 512775.0
+149.014999 512775.0
+178.044006 1805.0
+179.011993 3304.0
+203.955002 3773.0
+207.014008 4127.0
+222.072998 104908.0
+222.072998 104908.0
+231.947006 4563.0
+233.018005 13854.0
+233.018005 13854.0
+235.050003 25398.0
+235.050003 25398.0
+237.001007 22258.0
+250.035995 48717.0
+250.035995 48717.0
+252.076004 13135.0
+252.076004 13135.0
+262.04599 72747.0
+262.04599 72747.0
+278.062012 10838.0
+279.006989 11857.0
+279.006989 11857.0
+280.065002 82678.0

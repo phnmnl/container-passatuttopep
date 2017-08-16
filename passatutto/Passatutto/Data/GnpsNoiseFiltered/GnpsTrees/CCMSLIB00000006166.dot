@@ -1,0 +1,19 @@
+strict digraph {
+v1 [label="C18H11FS\n279.0625 Da, 1.25 %\nMassDev: -4.7517 ppm, -0.0013 Da\ncE: [10]\nMass Deviation=-0.7457\nTreeSizeScorer=-0.5000\nIntensity=0.6300\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0224\nCommonLossEdgeScorer=1.4335\nLossSizeScorer=0.0334\nScore: 0.8405"];
+v2 [label="C16H8F\n220.0681 Da, 1.39 %\nMassDev: -0.8176 ppm, -0.0002 Da\ncE: [10]\nMass Deviation=-0.1032\nTreeSizeScorer=-0.5000\nIntensity=0.6660\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.1609\nLossSizeScorer=0.7808\nScore: 1.0602"];
+v3 [label="C18H10F\n246.0841 Da, 19.54 %\nMassDev: 0.8412 ppm, 0.0002 Da\ncE: [10]\nMass Deviation=-0.1063\nTreeSizeScorer=-0.5000\nIntensity=1.5762\nFree Radical=0.0116\nStrangeElementLossScorer=0.4055\nChemicalPriorEdgeScorer=-0.0767\nCommonLossEdgeScorer=-1.3055\nLossSizeScorer=1.0525\nScore: 1.0574"];
+v4 [label="C17H9F\n233.0765 Da, 100.00 %\nMassDev: 1.7936 ppm, 0.0004 Da\ncE: [10]\nMass Deviation=-0.2395\nTreeSizeScorer=-0.5000\nIntensity=2.1379\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=-0.0225\nCommonLossEdgeScorer=1.5028\nLossSizeScorer=-0.4949\nScore: 2.2900"];
+v5 [label="C18H12F\n248.0999 Da, 60.25 %\nMassDev: 1.1646 ppm, 0.0003 Da\ncE: [10]\nMass Deviation=-0.1499\nTreeSizeScorer=-0.5000\nIntensity=1.9636\nFree Radical=0.0116\nStrangeElementLossScorer=0.4055\nChemicalPriorEdgeScorer=-0.0087\nCommonLossEdgeScorer=-2.0138\nLossSizeScorer=1.0105\nScore: 0.7187"];
+v6 [label="C17H9FS\n265.0473 Da, 2.86 %\nMassDev: -3.1804 ppm, -0.0008 Da\ncE: [10]\nMass Deviation=-0.4588\nTreeSizeScorer=-0.5000\nIntensity=0.9150\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=-0.0051\nCommonLossEdgeScorer=1.5028\nLossSizeScorer=-0.4949\nScore: 0.8652"];
+v7 [label="C18H12FS\n280.0706 Da, 1.88 %\nMassDev: -3.5814 ppm, -0.0010 Da\ncE: [10]\nMass Deviation=-0.5280\nTreeSizeScorer=-0.5000\nIntensity=0.7706\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=0.0032\nCommonLossEdgeScorer=-0.3062\nLossSizeScorer=-0.1229\nScore: -0.7770"];
+v8 [label="C18H13FOS\n297.0750 Da, 1.06 %\nMassDev: 2.0914 ppm, 0.0006 Da\ncE: [10]\nMass Deviation=-0.2838\nTreeSizeScorer=-0.5000\nIntensity=0.5728\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0012\nCommonLossEdgeScorer=-1.5129\nLossSizeScorer=0.8700\nScore: -0.8435"];
+v9 [label="C20H17FO3S\n357.0960 Da, 0.00 %\nMassDev: 1.3440 ppm, 0.0005 Da\ncE: []\nCompoundScore: 2.5876921228977836\nStrangeElementRootScorer=-2.7726\nChemical Prior=0.1488\nScore: -2.6238"];
+v8 -> v1 [label="H2O"];
+v3 -> v2 [label="C2H2"];
+v7 -> v3 [label="H2S"];
+v5 -> v4 [label="CH3"];
+v7 -> v5 [label="S"];
+v7 -> v6 [label="CH3"];
+v8 -> v7 [label="HO"];
+v9 -> v8 [label="C2H4O2"];
+}

@@ -1,0 +1,5 @@
+strict digraph {
+v1 [label="C8H5FN\n135.0488 Da, 3.80 %\nMassDev: 6.8062 ppm, 0.0009 Da\ncE: [10]\nMass Deviation=-0.7122\nTreeSizeScorer=5.5000\nFragmentSizeScorer=0.6495\nIntensity=1.0127\nFree Radical=0.0116\nLoss RDBE=-1.0986\nChemicalPriorEdgeScorer=-0.0239\nCommonLossEdgeScorer=-2.0901\nLossSizeScorer=0.8271\nScore: 4.0760"];
+v2 [label="C10H13FN2O\n197.1100 Da, 0.00 %\nMassDev: 7.7738 ppm, 0.0015 Da\ncE: []\nCompoundScore: 2.8944794057803973\nStrangeElementRootScorer=-1.3863\nChemical Prior=0.2047\nScore: -1.1816"];
+v2 -> v1 [label="C2H8NO"];
+}

@@ -1,0 +1,47 @@
+>compound NCGC00160335-01!4,7,7-Trimethyl-2,3-dioxo-bicyclo[2.2.1]heptane-1-carboxylic acid
+>formula C11H14O4
+>ionization [M+H]+
+>parentmass 211.097
+#inchi InChI=1S/C11H14O4/c1-9(2)10(3)4-5-11(9,8(14)15)7(13)6(10)12/h4-5H2,1-3H3,(H,14,15)/t10?,11-/m0/s1
+#inchikey MFGSQXUNSUJWPZ
+#Ion_Source LC-ESI
+#Instrument qTOF
+#Compound_Source Prestwick Phytochem Lib
+#PI Dorrestein
+#Data_Collector VVP/LMS
+#Scan -1
+#Precursor_MZ 211.097
+#ExactMass 210.089
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles CC1(C)C2(C)CC[C@@]1(C(O)=O)C(=O)C2=O
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000078739
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 67c915c6594c435cadc1fe2b5358144d
+##Scan# 1525
+#SpectrumFile p1-A03_GA3_01_17876.mzXML
+#LibraryName phytochem_lib.mgf
+#MQScore -1
+#Organism phytochem_lib
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 211.097
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+109.0631 0.22
+114.0452 0.52
+115.055 2.15
+143.0689 0.34
+178.0612 0.28
+211.097 0.0

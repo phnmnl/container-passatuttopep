@@ -1,0 +1,46 @@
+>compound MLS001075348-01!3-[[2-(furan-2-carbonylamino)benzoyl]amino]benzoic acid
+>formula C19H14N2O5
+>ionization [M+H]+
+>parentmass 351.098
+#inchi InChI=1S/C19H14N2O5/c22-17(20-13-6-3-5-12(11-13)19(24)25)14-7-1-2-8-15(14)21-18(23)16-9-4-10-26-16/h1-11H,(H,20,22)(H,21,23)(H,24,25)
+#inchikey DRGBJEBIIJHOSV
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Natural Product Library
+#PI Dorrestein
+#Data_Collector VVP/LMS
+#Scan -1
+#Precursor_MZ 351.098
+#ExactMass 350.09
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles OC(=O)c1cccc(NC(=O)c2ccccc2NC(=O)c3ccco3)c1
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000080070
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID b1d8e8f6646f4e71acdff9ca3d919d08
+##Scan# 2015
+#SpectrumFile p2-G03_GG3_01_18051.mzXML
+#LibraryName NIH_Natural_Products_Library.mgf
+#MQScore -1
+#Organism NIH_Natural_Products_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 351.098
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+95.0132 6.02
+146.0237 100.0
+158.0594 1.2
+214.0502 58.12
+351.098 0.0

@@ -1,0 +1,46 @@
+>compound Vitexin
+>formula C21H20O10
+>ionization [M+H]+
+>parentmass 433.1129232920905
+#inchi InChI=1S/C21H20O10/c22-7-14-17(27)18(28)19(29)21(31-14)16-11(25)5-10(24)15-12(26)6-13(30-20(15)16)8-1-3-9(23)4-2-8/h1-6,14,17-19,21-25,27-29H,7H2/t14?,17?,18-,19-,21?/m1/s1
+#inchikey SGEWCQFRYRRZDC
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 433.1
+#ExactMass 432.106
+#Charge 1
+#CAS_Number 3681-93-4
+#Pubmed_ID N/A
+#Smiles O=C1C2=C(O)C=C(O)C(C3OC(CO)C(O)[C@@H](O)[C@H]3O)=C2OC(C4=CC=C(O)C=C4)=C1
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081772
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 445bf109b7eb4fc091fb6c19942b2a28
+##Scan# 1
+#SpectrumFile gnps_vitexin_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05_V03
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 433.1
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+295.0632 9.61
+314.0762 22.24
+323.0952 6.23
+416.1107 18.15
+433.1162 98.58

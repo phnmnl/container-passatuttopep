@@ -1,0 +1,17 @@
+strict digraph {
+v1 [label="C6H11N\n98.0960 Da, 11.51 %\nMassDev: -3.9431 ppm, -0.0004 Da\ncE: [10]\nMass Deviation=-0.2591\nFragmentSizeScorer=1.0190\nIntensity=1.3943\nFree Radical=0.0116\nCommonLossEdgeScorer=-1.2489\nLossSizeScorer=0.9860\nScore: 1.9029"];
+v2 [label="C7H13N\n112.1122 Da, 100.00 %\nMassDev: 1.2232 ppm, 0.0001 Da\ncE: [10]\nMass Deviation=-0.0855\nCommon Fragments:=-0.3870\nFragmentSizeScorer=0.8789\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.3734\nLossSizeScorer=-0.1193\nScore: 2.8542"];
+v3 [label="C7H16N2\n129.1383 Da, 20.44 %\nMassDev: -2.8261 ppm, -0.0004 Da\ncE: [10]\nMass Deviation=-0.2430\nFragmentSizeScorer=0.7086\nIntensity=1.5917\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0318\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-3.3785\nScore: -4.0803"];
+v4 [label="C6ClO2\n139.9651 Da, 0.35 %\nMassDev: -6.4400 ppm, -0.0009 Da\ncE: [10]\nMass Deviation=-0.6951\nFragmentSizeScorer=0.6003\nIntensity=0.1939\nFree Radical=0.0116\nStrangeElementLossScorer=0.4055\nChemicalPriorEdgeScorer=-0.0110\nCommonLossEdgeScorer=-0.4292\nLossSizeScorer=1.0809\nScore: 1.1570"];
+v5 [label="C6HCl2O2\n175.9416 Da, 3.24 %\nMassDev: -6.0366 ppm, -0.0011 Da\ncE: [10]\nMass Deviation=-0.8540\nFragmentSizeScorer=0.2406\nIntensity=0.9583\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 1.7133"];
+v6 [label="C7HCl2O3\n203.9372 Da, 28.02 %\nMassDev: -1.5971 ppm, -0.0003 Da\ncE: [10]\nMass Deviation=-0.2110\nIntensity=1.7002\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=0.0353\nCommonLossEdgeScorer=1.5028\nLossSizeScorer=-0.4949\nScore: 2.4386"];
+v7 [label="C8H4Cl2O3\n218.9605 Da, 58.38 %\nMassDev: -2.5658 ppm, -0.0006 Da\ncE: [10]\nMass Deviation=-0.3581\nIntensity=1.9527\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-0.9837\nScore: -2.0723"];
+v8 [label="C15H20Cl2N2O3\n347.0902 Da, 13.66 %\nMassDev: -6.1492 ppm, -0.0021 Da\ncE: [10]\nCompoundScore: 1.2011628512529433\nMass Deviation=-1.5259\nStrangeElementRootScorer=-1.3863\nChemical Prior=0.2000\nScore: -2.7122"];
+v3 -> v1 [label="CH5N"];
+v3 -> v2 [label="H3N"];
+v8 -> v3 [label="C8H4Cl2O3"];
+v5 -> v4 [label="HCl"];
+v6 -> v5 [label="CO"];
+v7 -> v6 [label="CH3"];
+v8 -> v7 [label="C7H16N2"];
+}

@@ -1,0 +1,62 @@
+>compound alpha-lapachone
+>formula C15H14O3
+>ionization [M+H]+
+>parentmass 243.1015707600905
+#inchi InChI=1S/C15H14O3/c1-15(2)8-7-11-12(16)9-5-3-4-6-10(9)13(17)14(11)18-15/h3-6H,7-8H2,1-2H3
+#inchikey PJWHOPKRRBUSDH
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Niege Furtado
+#Scan -1
+#Precursor_MZ 243.097
+#ExactMass 242.094
+#Charge 1
+#CAS_Number 4707-33-9
+#Pubmed_ID  
+#Smiles O=C1C2=C(OC(C)(C)CC2)C(C3=CC=CC=C31)=O
+#INCHI_AUX  
+#Library_Class 3
+#SpectrumID CCMSLIB00000081262
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 8200cd67ad96498081c1d35828ea7152
+##Scan# 1
+#SpectrumFile gnps_alpha_lapachone_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism gnps_library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 243.097
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 10
+133.023254 6587.0
+155.043854 5307.0
+159.039093 59644.0
+160.04274 7222.0
+173.056122 9382.0
+179.081833 5296.0
+181.06131 7595.0
+183.041428 42518.0
+184.043503 5115.0
+185.055023 5396.0
+187.03389 626790.0
+188.040115 72241.0
+189.042313 8774.0
+197.093933 17046.0
+199.072769 5177.0
+201.052094 92711.0
+202.055176 11505.0
+207.076935 6240.0
+225.087479 93106.0
+226.090714 14203.0
+243.096603 274297.0

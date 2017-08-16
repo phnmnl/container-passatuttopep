@@ -1,0 +1,47 @@
+>compound MLS002154000-01!Hexylcaine hydrochloride532-76-3
+>formula C16H23NO2
+>ionization [M+H]+
+>parentmass 262.181244
+#inchi InChI=1S/C16H23NO2/c1-13(12-17-15-10-6-3-7-11-15)19-16(18)14-8-4-2-5-9-14/h2,4-5,8-9,13,15,17H,3,6-7,10-12H2,1H3
+#inchikey DKLKMKYDWHYZTD
+#origInchi InChI=1S/C16H23NO2.ClH/c1-13(12-17-15-10-6-3-7-11-15)19-16(18)14-8-4-2-5-9-14;/h2,4-5,8-9,13,15,17H,3,6-7,10-12H2,1H3;1H
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Pharmacologically Active Library
+#PI Dorrestein
+#Data_Collector VP/LMS
+#Scan -1
+#Precursor_MZ 262.187
+#ExactMass 261.173
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles CC(CNC1CCCCC1)OC(=O)c2ccccc2.Cl
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000085551
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID d252d724072548979f1f6f1ced849daf
+##Scan# 1571
+#SpectrumFile p4-C06_GC6_01_18354.mzXML
+#LibraryName Pharm_Active_Library.mgf
+#MQScore -1
+#Organism Pharm_Active_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 262.187
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+105.0348 100.0
+135.0441 0.61
+140.1436 20.09
+163.0759 19.13
+262.1812 0.46

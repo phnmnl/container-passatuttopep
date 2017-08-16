@@ -1,0 +1,46 @@
+>compound Isogoyazensolide
+>formula C19H22O7
+>ionization [M+H]+
+>parentmass 363.142395
+#inchi InChI=1S/C19H22O7/c1-8(2)17(22)24-12-7-19(5)13(20)6-11(26-19)9(3)15(21)16-14(12)10(4)18(23)25-16/h11-12,14-16,21H,1,3-4,6-7H2,2,5H3/t11?,12-,14+,15+,16-,19+/m0/s1
+#inchikey BYDOCEQRHMZXMS
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 363.142
+#ExactMass 362.137
+#Charge 1
+#CAS_Number 377077-93-5
+#Pubmed_ID N/A
+#Smiles C=C1C2CC([C@@](O2)(C)C[C@H](OC(C(C)=C)=O)[C@](C(C(O3)=O)=C)([H])[C@@]3([H])[C@@H]1O)=O
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081731
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 52bd5f0db6314c93924d5ce5c86348eb
+##Scan# 1
+#SpectrumFile gnps_Isogoyazensolide_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05_V02
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 363.142
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+231.0857 68.67
+241.0695 8.44
+259.082 20.5
+319.1552 10.12
+363.1424 41.49

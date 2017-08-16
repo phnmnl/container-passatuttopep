@@ -1,0 +1,45 @@
+>compound Levocetirizine
+>formula C21H25ClN2O3
+>ionization [M+H]+
+>parentmass 389.1626467920905
+#inchi InChI=1S/C21H25ClN2O3/c22-19-8-6-18(7-9-19)21(17-4-2-1-3-5-17)24-12-10-23(11-13-24)14-15-27-16-20(25)26/h1-9,21H,10-16H2,(H,25,26)/t21-/m1/s1
+#inchikey ZKLPARSLTMPFCP
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Commercial
+#PI Norberto Lopes
+#Data_Collector Norberto Lopes
+#Scan -1
+#Precursor_MZ 389.16
+#ExactMass 388.155
+#Charge 1
+#CAS_Number 130018-77-8
+#Pubmed_ID N/A
+#Smiles ClC(C=C1)=CC=C1[C@@H](C2=CC=CC=C2)N(CC3)CCN3CCOCC(O)=O
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081597
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 4a07f16a650f4095b43fe6b0b09ff8bb
+##Scan# 1
+#SpectrumFile gnps_Levocetirizine_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 389.16
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+165.0662 50.69
+166.0739 100.0
+201.0435 52.95
+389.1626 0.0

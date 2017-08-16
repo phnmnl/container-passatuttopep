@@ -1,0 +1,44 @@
+>compound Eucalyptin
+>formula C19H18O5
+>ionization [M+H]+
+>parentmass 327.1227001280905
+#inchi InChI=1S/C19H18O5/c1-10-17(21)16-14(20)9-15(12-5-7-13(22-3)8-6-12)24-19(16)11(2)18(10)23-4/h5-9,21H,1-4H3
+#inchikey NHMMAMIRMITGRD
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 327.116
+#ExactMass 326.115
+#Charge 1
+#CAS_Number 3122-88-1
+#Pubmed_ID N/A
+#Smiles O=C1C2=C(O)C(C)=C(OC)C(C)=C2OC(C3=CC=C(OC)C=C3)=C1
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081748
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 52bd5f0db6314c93924d5ce5c86348eb
+##Scan# 1
+#SpectrumFile gnps_Eucalyptin_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05_V02
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 327.116
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+195.0637 1.74
+240.0761 0.54
+327.1227 0.0

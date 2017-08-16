@@ -1,0 +1,47 @@
+>compound MLS001141071-01!(2S)-1-[3-(4-methyl-2-oxo-6,7,8,9-tetrahydro-[1]benzofuro[3,2-g]chromen-3-yl)propanoyl]pyrrolidine-2-carboxylic acid
+>formula C24H25NO6
+>ionization [M+H]+
+>parentmass 424.176
+#inchi InChI=1S/C24H25NO6/c1-13-14(8-9-22(26)25-10-4-6-18(25)23(27)28)24(29)31-20-12-21-17(11-16(13)20)15-5-2-3-7-19(15)30-21/h11-12,18H,2-10H2,1H3,(H,27,28)/t18-/m0/s1
+#inchikey AUXASDNAGLTQIL
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Natural Product Library
+#PI Dorrestein
+#Data_Collector VVP/LMS
+#Scan -1
+#Precursor_MZ 424.176
+#ExactMass 423.168
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles Cc1c(CCC(=O)N2CCC[C@H]2C(=O)O)c(=O)oc3cc4oc5CCCCc5c4cc13
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000079698
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID b1d8e8f6646f4e71acdff9ca3d919d08
+##Scan# 2291
+#SpectrumFile p1-H09_GH9_01_17965.mzXML
+#LibraryName NIH_Natural_Products_Library.mgf
+#MQScore -1
+#Organism NIH_Natural_Products_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 424.176
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+239.1052 7.57
+253.1216 0.77
+267.1009 100.0
+281.1158 13.54
+309.1107 16.32
+424.176 0.0

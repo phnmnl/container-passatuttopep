@@ -1,0 +1,16 @@
+>compound DErySphingosine
+#instrument LTQ Orbitrap XL, Thermo Scientfic; HP-1100 HPLC, Agilent
+>formula C18H37NO2
+#smiles CCCCCCCCCCCCC/C=C/[C@H]([C@H](CO)N)O
+#inchi InChI=1S/C18H37NO2/c1-2-3-4-5-6-7-8-9-10-11-12-13-14-15-18(21)17(19)16-20/h14-15,17-18,20-21H,2-13,16,19H2,1H3/b15-14+/t17-,18+/m0/s1
+>charge 1
+>ionization [M+H]+
+>parentmass 300.28971
+
+>collision 10
+109.713989 46524.953125
+265.25058 53756.109375
+282.277252 6919175.5
+299.347931 162372.875
+300.287537 1296197.25
+

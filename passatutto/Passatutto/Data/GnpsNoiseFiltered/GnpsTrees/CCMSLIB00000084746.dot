@@ -1,0 +1,17 @@
+strict digraph {
+v1 [label="NO2\n46.9983 Da, 4.86 %\nMassDev: -40.2715 ppm, -0.0019 Da\ncE: [10]\nMass Deviation=-1.8595\nFragmentSizeScorer=1.5300\nIntensity=1.0974\nFree Radical=0.0116\nStrangeElementLossScorer=0.4055\nCommonLossEdgeScorer=-0.0416\nLossSizeScorer=-0.4345\nScore: 0.7089"];
+v2 [label="C6H5NO\n108.0453 Da, 100.00 %\nMassDev: 8.5221 ppm, 0.0009 Da\ncE: [10]\nMass Deviation=-0.7137\nFragmentSizeScorer=0.9195\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0115\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=1.0655\nScore: 0.6935"];
+v3 [label="C6H5NO2S\n156.0130 Da, 17.71 %\nMassDev: 10.5129 ppm, 0.0016 Da\ncE: [10]\nMass Deviation=-1.5203\nFragmentSizeScorer=0.4399\nIntensity=1.5424\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-1.4777\nLossSizeScorer=0.0225\nScore: -0.9374"];
+v4 [label="C6H6N\n93.0582 Da, 16.09 %\nMassDev: 9.3851 ppm, 0.0009 Da\ncE: [10]\nMass Deviation=-0.6685\nCommon Fragments:=-0.2811\nFragmentSizeScorer=1.0694\nIntensity=1.5095\nFree Radical=0.0116\nStrangeElementLossScorer=0.4055\nCommonLossEdgeScorer=-1.0361\nLossSizeScorer=0.5417\nScore: 1.5518"];
+v5 [label="C6H5N\n92.0498 Da, 17.31 %\nMassDev: 3.0786 ppm, 0.0003 Da\ncE: [10]\nMass Deviation=-0.1843\nFragmentSizeScorer=1.0795\nIntensity=1.5345\nFree Radical=0.0116\nStrangeElementLossScorer=0.4055\nCommonLossEdgeScorer=-2.0138\nLossSizeScorer=1.0105\nScore: 1.8435"];
+v6 [label="C6H5NS\n124.0215 Da, 3.04 %\nMassDev: -0.3758 ppm, -0.0000 Da\ncE: [10]\nMass Deviation=-0.0283\nFragmentSizeScorer=0.7598\nIntensity=0.9357\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=0.0243\nCommonLossEdgeScorer=-1.7649\nLossSizeScorer=1.1024\nScore: 0.9353"];
+v7 [label="C9H12NS\n167.0768 Da, 7.69 %\nMassDev: 2.9397 ppm, 0.0005 Da\ncE: [10]\nMass Deviation=-0.3388\nFragmentSizeScorer=0.3292\nIntensity=1.2555\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=0.3303\nScore: -1.1070"];
+v8 [label="C12H12N2O2S\n249.0710 Da, 0.00 %\nMassDev: 7.1262 ppm, 0.0018 Da\ncE: []\nCompoundScore: 2.486819615385902\nStrangeElementRootScorer=-1.3863\nChemical Prior=0.1846\nScore: -1.2017"];
+v3 -> v1 [label="C6H5S"];
+v3 -> v2 [label="OS"];
+v8 -> v3 [label="C6H7N"];
+v7 -> v4 [label="C3H6S"];
+v6 -> v5 [label="S"];
+v7 -> v6 [label="C3H7"];
+v8 -> v7 [label="C3NO2"];
+}

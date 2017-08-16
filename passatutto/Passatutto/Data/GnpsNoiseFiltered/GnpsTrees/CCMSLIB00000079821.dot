@@ -1,0 +1,3 @@
+strict digraph {
+v1 [label="C49H63NO17\n938.4170 Da, 0.00 %\nMassDev: 0.1321 ppm, 0.0001 Da\ncE: []\nCompoundScore: 0.1875983584330213\nChemical Prior=0.1876\nScore: 0.1876"];
+}

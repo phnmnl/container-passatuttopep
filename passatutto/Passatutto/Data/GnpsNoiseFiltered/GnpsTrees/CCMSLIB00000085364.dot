@@ -1,0 +1,15 @@
+strict digraph {
+v1 [label="C6H3F\n95.0292 Da, 1.11 %\nMassDev: 0.1287 ppm, 0.0000 Da\ncE: [10]\nMass Deviation=-0.0073\nFragmentSizeScorer=1.0497\nIntensity=0.5900\nFree Radical=0.0116\nCommonLossEdgeScorer=1.4335\nLossSizeScorer=0.0330\nScore: 3.1105"];
+v2 [label="C6H5FO\n113.0390 Da, 0.27 %\nMassDev: -5.9488 ppm, -0.0007 Da\ncE: [10]\nMass Deviation=-0.4877\nFragmentSizeScorer=0.8696\nIntensity=0.1019\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-1.0716\nLossSizeScorer=1.0132\nScore: 0.4812"];
+v3 [label="C7H3FO\n123.0253 Da, 51.86 %\nMassDev: 9.7509 ppm, 0.0012 Da\ncE: [10]\nMass Deviation=-0.9989\nFragmentSizeScorer=0.7697\nIntensity=1.9120\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0002\nCommonLossEdgeScorer=-1.8523\nLossSizeScorer=1.1054\nScore: 0.9478"];
+v4 [label="C10H7F\n147.0600 Da, 0.35 %\nMassDev: -2.8009 ppm, -0.0004 Da\ncE: [10]\nMass Deviation=-0.2779\nFragmentSizeScorer=0.5294\nIntensity=0.1946\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0114\nCommonLossEdgeScorer=1.4335\nLossSizeScorer=0.0334\nScore: 1.9132"];
+v5 [label="C10H9FO\n165.0722 Da, 100.00 %\nMassDev: 7.3630 ppm, 0.0012 Da\ncE: [10]\nMass Deviation=-1.0161\nFragmentSizeScorer=0.3493\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0324\nCommonLossEdgeScorer=-1.9532\nLossSizeScorer=0.9197\nScore: 0.4816"];
+v6 [label="C11H12FNO\n194.0980 Da, 11.50 %\nMassDev: 2.0213 ppm, 0.0004 Da\ncE: [10]\nMass Deviation=-0.2632\nFragmentSizeScorer=0.0590\nIntensity=1.3939\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-2.5715\nScore: -4.0650"];
+v7 [label="C22H22FN3O2\n380.1806 Da, 0.06 %\nMassDev: 9.7885 ppm, 0.0037 Da\ncE: [10]\nCompoundScore: -1.3828797764691942\nMass Deviation=-3.0026\nStrangeElementRootScorer=-1.3863\nChemical Prior=0.1367\nScore: -4.2522"];
+v2 -> v1 [label="H2O"];
+v5 -> v2 [label="C4H4"];
+v5 -> v3 [label="C3H6"];
+v5 -> v4 [label="H2O"];
+v6 -> v5 [label="CH3N"];
+v7 -> v6 [label="C11H10N2O"];
+}

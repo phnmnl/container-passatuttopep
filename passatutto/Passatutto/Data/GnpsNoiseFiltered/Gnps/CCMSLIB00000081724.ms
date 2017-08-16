@@ -1,0 +1,44 @@
+>compound Ofloxacin
+>formula C18H20FN3O4
+>ionization [M+H]+
+>parentmass 362.15106079209056
+#inchi InChI=1S/C18H20FN3O4/c1-10-9-26-17-14-11(16(23)12(18(24)25)8-22(10)14)7-13(19)15(17)21-5-3-20(2)4-6-21/h7-8,10H,3-6,9H2,1-2H3,(H,24,25)
+#inchikey GSDSWSVVBLHKDQ
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Commercial
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 360.128
+#ExactMass 361.144
+#Charge 1
+#CAS_Number 82419-36-1
+#Pubmed_ID N/A
+#Smiles CC1COC2=C(N3CCN(C)CC3)C(F)=CC4=C2N1C=C(C(O)=O)C4=O
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081724
+#IonMode Negative
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 52bd5f0db6314c93924d5ce5c86348eb
+##Scan# 1
+#SpectrumFile gnps_Ofloxacin_neg.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05_V02
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 360.128
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+275.1025 100.0
+316.1406 37.36
+362.1511 0.0

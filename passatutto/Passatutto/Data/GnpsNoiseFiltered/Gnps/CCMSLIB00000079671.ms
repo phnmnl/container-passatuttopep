@@ -1,0 +1,46 @@
+>compound MLS001048921-01!6-ethoxypyridine-3-carboxylic acid
+>formula C8H9NO3
+>ionization [M+H]+
+>parentmass 168.066
+#inchi InChI=1S/C8H9NO3/c1-2-12-7-4-3-6(5-9-7)8(10)11/h3-5H,2H2,1H3,(H,10,11)
+#inchikey RAMUDXNFZBUNHO
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Natural Product Library
+#PI Dorrestein
+#Data_Collector VVP/LMS
+#Scan -1
+#Precursor_MZ 168.066
+#ExactMass 167.058
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles CCOc1ccc(cn1)C(=O)O
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000079671
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID b1d8e8f6646f4e71acdff9ca3d919d08
+##Scan# 1364
+#SpectrumFile p1-F09_GF9_01_17941.mzXML
+#LibraryName NIH_Natural_Products_Library.mgf
+#MQScore -1
+#Organism NIH_Natural_Products_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 168.066
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+95.0133 2.32
+112.0398 2.53
+122.0231 20.05
+140.0337 100.0
+168.066 0.0

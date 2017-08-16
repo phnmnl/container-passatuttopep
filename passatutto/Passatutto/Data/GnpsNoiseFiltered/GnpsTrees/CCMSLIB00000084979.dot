@@ -1,0 +1,15 @@
+strict digraph {
+v1 [label="C5H2N4\n119.0343 Da, 14.04 %\nMassDev: -7.9936 ppm, -0.0010 Da\ncE: [10]\nMass Deviation=-0.7435\nTreeSizeScorer=1.5000\nFragmentSizeScorer=0.8097\nIntensity=1.4626\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.3734\nLossSizeScorer=-0.1191\nScore: 3.3388"];
+v2 [label="C5H5N5\n136.0616 Da, 100.00 %\nMassDev: -1.4891 ppm, -0.0002 Da\ncE: [10]\nMass Deviation=-0.1287\nTreeSizeScorer=1.5000\nFragmentSizeScorer=0.6394\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-2.8696\nCommonLossEdgeScorer=0.5201\nLossSizeScorer=-1.0952\nScore: 0.7155"];
+v3 [label="C6H3O\n92.0273 Da, 4.99 %\nMassDev: 18.0580 ppm, 0.0017 Da\ncE: [10]\nMass Deviation=-1.5482\nTreeSizeScorer=1.5000\nFragmentSizeScorer=1.0797\nIntensity=1.1064\nFree Radical=0.0116\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=1.0839\nScore: 0.4945"];
+v4 [label="C4H2N3\n93.0306 Da, 5.91 %\nMassDev: -17.1182 ppm, -0.0016 Da\ncE: [10]\nMass Deviation=-1.4596\nTreeSizeScorer=1.5000\nFragmentSizeScorer=1.0697\nIntensity=1.1646\nFree Radical=0.0116\nCommonLossEdgeScorer=-2.5209\nLossSizeScorer=1.0916\nScore: 0.8570"];
+v5 [label="C5H5NO\n96.0456 Da, 5.64 %\nMassDev: 12.2105 ppm, 0.0012 Da\ncE: [10]\nMass Deviation=-0.9700\nTreeSizeScorer=1.5000\nFragmentSizeScorer=1.0395\nIntensity=1.1489\nFree Radical=0.0116\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=1.1055\nScore: 1.0967"];
+v6 [label="C6H7N3O\n138.0679 Da, 3.94 %\nMassDev: 12.2962 ppm, 0.0017 Da\ncE: [10]\nMass Deviation=-1.5949\nTreeSizeScorer=1.5000\nFragmentSizeScorer=0.6193\nIntensity=1.0251\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0362\nCommonLossEdgeScorer=-0.9605\nLossSizeScorer=-1.0381\nScore: -0.4013"];
+v7 [label="C10H13N5O4\n268.1030 Da, 0.00 %\nMassDev: -3.8431 ppm, -0.0010 Da\ncE: []\nCompoundScore: 5.377974471043502\nChemical Prior=-0.7232\nScore: -0.7232"];
+v2 -> v1 [label="H3N"];
+v7 -> v2 [label="C5H8O4"];
+v6 -> v3 [label="H4N3"];
+v6 -> v4 [label="C2H5O"];
+v6 -> v5 [label="CH2N2"];
+v7 -> v6 [label="C4H6N2O3"];
+}

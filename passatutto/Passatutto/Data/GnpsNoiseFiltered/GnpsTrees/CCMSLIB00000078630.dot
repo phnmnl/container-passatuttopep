@@ -1,0 +1,15 @@
+strict digraph {
+v1 [label="C13H8\n165.0703 Da, 20.92 %\nMassDev: 2.7339 ppm, 0.0005 Da\ncE: [10]\nMass Deviation=-0.3079\nTreeSizeScorer=1.0000\nFragmentSizeScorer=0.3493\nIntensity=1.5996\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0716\nCommonLossEdgeScorer=1.4335\nLossSizeScorer=0.0330\nScore: 4.0477"];
+v2 [label="C13H9\n166.0785 Da, 44.72 %\nMassDev: 4.8426 ppm, 0.0008 Da\ncE: [10]\nMass Deviation=-0.6044\nCommon Fragments:=-0.1584\nTreeSizeScorer=1.0000\nFragmentSizeScorer=0.3392\nIntensity=1.8610\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=-0.0284\nCommonLossEdgeScorer=-0.3062\nLossSizeScorer=-0.1233\nScore: 1.8858"];
+v3 [label="C12H7O\n168.0572 Da, 0.23 %\nMassDev: 1.2419 ppm, 0.0002 Da\ncE: [10]\nMass Deviation=-0.1328\nTreeSizeScorer=1.0000\nFragmentSizeScorer=0.3194\nIntensity=0.0445\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=-0.0227\nCommonLossEdgeScorer=1.5028\nLossSizeScorer=-0.4950\nScore: 2.1226"];
+v4 [label="C13H10O\n183.0802 Da, 0.99 %\nMassDev: -1.0672 ppm, -0.0002 Da\ncE: [10]\nMass Deviation=-0.1239\nCommon Fragments:=-0.1584\nTreeSizeScorer=1.0000\nFragmentSizeScorer=0.1692\nIntensity=0.5487\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-0.0702\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-2.7277\nScore: -4.0895"];
+v5 [label="C8H10N2O2\n167.0812 Da, 6.48 %\nMassDev: -1.9572 ppm, -0.0003 Da\ncE: [10]\nMass Deviation=-0.2154\nTreeSizeScorer=1.0000\nFragmentSizeScorer=0.3292\nIntensity=1.1966\nFree Radical=-0.0937\nStrangeElementLossScorer=0.4055\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-0.8590\nLossSizeScorer=1.0680\nScore: 2.8753"];
+v6 [label="C8H10ClN2O2\n202.0508 Da, 30.79 %\nMassDev: 2.4019 ppm, 0.0005 Da\ncE: [10]\nMass Deviation=-0.3323\nTreeSizeScorer=1.0000\nIntensity=1.7327\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-2.2299\nScore: -2.5126"];
+v7 [label="C21H27ClN2O2\n375.1852 Da, 42.11 %\nMassDev: 4.9569 ppm, 0.0019 Da\ncE: [10]\nCompoundScore: 2.0044403429992435\nMass Deviation=-1.1388\nStrangeElementRootScorer=-1.3863\nChemical Prior=0.2004\nScore: -2.3247"];
+v4 -> v1 [label="H2O"];
+v4 -> v2 [label="HO"];
+v4 -> v3 [label="CH3"];
+v7 -> v4 [label="C8H17ClN2O"];
+v6 -> v5 [label="Cl"];
+v7 -> v6 [label="C13H17"];
+}

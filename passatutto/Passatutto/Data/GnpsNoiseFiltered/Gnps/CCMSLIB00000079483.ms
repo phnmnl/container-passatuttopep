@@ -1,0 +1,47 @@
+>compound MLS001066368-01!2,2-diphenylacetic acid
+>formula C14H12O2
+>ionization [M+H]+
+>parentmass 213.092
+#inchi InChI=1S/C14H12O2/c15-14(16)13(11-7-3-1-4-8-11)12-9-5-2-6-10-12/h1-10,13H,(H,15,16)
+#inchikey PYHXGXCGESYPCW
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Natural Product Library
+#PI Dorrestein
+#Data_Collector VVP/LMS
+#Scan -1
+#Precursor_MZ 213.092
+#ExactMass 212.084
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles OC(=O)C(c1ccccc1)c2ccccc2
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000079483
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID b1d8e8f6646f4e71acdff9ca3d919d08
+##Scan# 2112
+#SpectrumFile p1-A07_GA7_01_17880.mzXML
+#LibraryName NIH_Natural_Products_Library.mgf
+#MQScore -1
+#Organism NIH_Natural_Products_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 213.092
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+107.051 38.26
+135.0458 22.51
+152.0622 100.0
+165.0701 65.27
+167.0836 98.71
+213.092 0.0

@@ -1,0 +1,47 @@
+>compound 7-Acetoxycoumarin
+>formula C11H8O4
+>ionization [M+H]+
+>parentmass 205.05
+#inchi InChI=1S/C11H8O4/c1-7(12)14-9-4-2-8-3-5-11(13)15-10(8)6-9/h2-6H,1H3
+#inchikey MGZOXZPZHVOXQB
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 205.05
+#ExactMass 204.042
+#Charge 1
+#CAS_Number 10387-49-2
+#Pubmed_ID N/A
+#Smiles O=C1C=CC2=CC=C(OC(C)=O)C=C2O1
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081745
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 52bd5f0db6314c93924d5ce5c86348eb
+##Scan# 1
+#SpectrumFile gnps_7_Acetoxycoumarin_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05_V02
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 205.05
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 10
+107.045914 902.0
+119.045502 5063.0
+120.047699 270.0
+135.040466 2954.0
+163.034988 22834.0
+164.037323 1146.0

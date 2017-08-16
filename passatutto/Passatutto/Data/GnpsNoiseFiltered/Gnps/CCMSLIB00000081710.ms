@@ -1,0 +1,47 @@
+>compound Lapachol
+>formula C15H14O3
+>ionization [M+H]+
+>parentmass 243.1015707600905
+#inchi InChI=1S/C15H14O3/c1-9(2)7-8-12-13(16)10-5-3-4-6-11(10)14(17)15(12)18/h3-7,18H,8H2,1-2H3
+#inchikey CIEYTVIYYGTCCI
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 243.077
+#ExactMass 242.094
+#Charge 1
+#CAS_Number 84-79-7
+#Pubmed_ID N/A
+#Smiles O=C1C(C/C=C(C)/C)=C(O)C(C2=CC=CC=C21)=O
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081710
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 52bd5f0db6314c93924d5ce5c86348eb
+##Scan# 1
+#SpectrumFile gnps_Lapachol_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05_V02
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 243.077
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+153.0533 0.99
+160.0318 4.62
+179.0688 2.72
+187.0198 100.0
+188.0253 7.29
+243.1016 0.0

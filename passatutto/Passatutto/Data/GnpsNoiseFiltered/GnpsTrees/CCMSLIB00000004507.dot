@@ -1,0 +1,15 @@
+strict digraph {
+v1 [label="C5H10N2S\n131.0640 Da, 17.77 %\nMassDev: 1.7871 ppm, 0.0002 Da\ncE: [10]\nMass Deviation=-0.1502\nTreeSizeScorer=4.0000\nFragmentSizeScorer=0.6894\nIntensity=1.5436\nFree Radical=0.0116\nChemicalPriorEdgeScorer=-1.6512\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-1.3784\nScore: 0.3259"];
+v2 [label="C7H7N\n106.0649 Da, 63.57 %\nMassDev: -2.5331 ppm, -0.0003 Da\ncE: [10]\nMass Deviation=-0.1740\nCommon Fragments:=-0.4099\nTreeSizeScorer=4.0000\nFragmentSizeScorer=0.9394\nIntensity=1.9820\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-0.6606\nLossSizeScorer=0.8327\nScore: 6.5654"];
+v3 [label="C8H8N2\n133.0759 Da, 84.45 %\nMassDev: -0.7267 ppm, -0.0001 Da\ncE: [10]\nMass Deviation=-0.0596\nTreeSizeScorer=4.0000\nFragmentSizeScorer=0.6692\nIntensity=2.0798\nFree Radical=0.0116\nLoss RDBE=-2.1972\nChemicalPriorEdgeScorer=0.0161\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-1.3218\nScore: 0.4592"];
+v4 [label="C4H10O3\n107.0708 Da, 39.45 %\nMassDev: 4.8787 ppm, 0.0005 Da\ncE: [10]\nMass Deviation=-0.3635\nTreeSizeScorer=4.0000\nFragmentSizeScorer=0.9293\nIntensity=1.8179\nFree Radical=0.0116\nPureCarbonNitrogenLossScorer=-2.3026\nChemicalPriorEdgeScorer=-0.1014\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=0.5421\nScore: 1.7944"];
+v5 [label="C5H9NO3\n132.0663 Da, 14.67 %\nMassDev: 6.1363 ppm, 0.0008 Da\ncE: [10]\nMass Deviation=-0.6101\nTreeSizeScorer=4.0000\nFragmentSizeScorer=0.6793\nIntensity=1.4777\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0141\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=1.0538\nScore: 3.8876"];
+v6 [label="C9H10NO3\n181.0738 Da, 3.50 %\nMassDev: 2.2994 ppm, 0.0004 Da\ncE: [10]\nMass Deviation=-0.2813\nTreeSizeScorer=4.0000\nFragmentSizeScorer=0.1893\nIntensity=0.9850\nFree Radical=0.0116\nLoss RDBE=-1.0986\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=0.0509\nScore: 1.1621"];
+v7 [label="C12H20N2O3S\n273.1270 Da, 0.00 %\nMassDev: 0.9521 ppm, 0.0003 Da\ncE: []\nCompoundScore: 12.993989387741426\nStrangeElementRootScorer=-1.3863\nChemical Prior=0.1856\nScore: -1.2006"];
+v7 -> v1 [label="C7H10O3"];
+v3 -> v2 [label="CHN"];
+v7 -> v3 [label="C4H12O3S"];
+v6 -> v4 [label="C5N"];
+v6 -> v5 [label="C4H"];
+v7 -> v6 [label="C3H10NS"];
+}

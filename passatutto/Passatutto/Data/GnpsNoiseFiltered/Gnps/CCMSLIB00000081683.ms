@@ -1,0 +1,47 @@
+>compound Enhydrin
+>formula C23H28O10
+>ionization [M+Na]+
+>parentmass 487.1574677960905
+#inchi InChI=1S/C23H28O10/c1-10-14-16(31-21(27)23(5)11(2)32-23)15(29-12(3)24)13(20(26)28-6)8-7-9-22(4)18(33-22)17(14)30-19(10)25/h8,11,14-18H,1,7,9H2,2-6H3/t11-,14+,15-,16-,17-,18-,22+,23-/m0/s1
+#inchikey VCBNPTWPJQLHQN
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Monica Pupo
+#Scan -1
+#Precursor_MZ 487.115
+#ExactMass 464.168
+#Charge 1
+#CAS_Number 33880-85-2
+#Pubmed_ID N/A
+#Smiles O=C([C@@]1([C@@H](O1)C)C)O[C@H]2[C@@H]3[C@H](OC(C3=C)=O)[C@H]4[C@](C)(O4)CCC=C(C(OC)=O)[C@@H]2OC(C)=O
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081683
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 52bd5f0db6314c93924d5ce5c86348eb
+##Scan# 1
+#SpectrumFile gnps_Enhydrin_pos_MplusNa.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05_V02
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 487.115
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+201.0729 12.56
+229.0676 21.12
+257.055 13.3
+289.0811 10.05
+389.0833 68.56
+487.1575 0.0

@@ -1,0 +1,17 @@
+strict digraph {
+v1 [label="C7H4O2\n121.0280 Da, 10.81 %\nMassDev: -3.7332 ppm, -0.0005 Da\ncE: [10]\nMass Deviation=-0.3083\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.7897\nIntensity=1.3725\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0335\nCommonLossEdgeScorer=-0.8206\nLossSizeScorer=-0.5208\nScore: 0.0577"];
+v2 [label="C6H3Cl\n110.9979 Da, 0.38 %\nMassDev: -15.6150 ppm, -0.0017 Da\ncE: [10]\nMass Deviation=-1.6418\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.8900\nIntensity=0.2181\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 0.3347"];
+v3 [label="C7H3ClO\n138.9939 Da, 30.74 %\nMassDev: -4.5890 ppm, -0.0006 Da\ncE: [10]\nMass Deviation=-0.4583\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.6101\nIntensity=1.7321\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-1.4239\nLossSizeScorer=-0.0054\nScore: 0.0103"];
+v4 [label="C13H9ClO2\n233.0368 Da, 100.00 %\nMassDev: 1.8681 ppm, 0.0004 Da\ncE: [10]\nMass Deviation=-0.2505\nTreeSizeScorer=-0.5000\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0188\nCommonLossEdgeScorer=-1.4936\nLossSizeScorer=0.2193\nScore: 0.1435"];
+v5 [label="C16H13ClO2\n273.0663 Da, 0.73 %\nMassDev: -4.9028 ppm, -0.0013 Da\ncE: [10]\nMass Deviation=-0.7756\nTreeSizeScorer=-0.5000\nIntensity=0.4444\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 0.5372"];
+v6 [label="C17H13ClO3\n301.0625 Da, 0.31 %\nMassDev: -0.2239 ppm, -0.0001 Da\ncE: [10]\nMass Deviation=-0.0272\nTreeSizeScorer=-0.5000\nIntensity=0.1547\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0098\nCommonLossEdgeScorer=1.4335\nLossSizeScorer=0.0333\nScore: 1.1157"];
+v7 [label="C17H15ClO4\n319.0742 Da, 0.94 %\nMassDev: 3.1181 ppm, 0.0010 Da\ncE: [10]\nMass Deviation=-0.4480\nTreeSizeScorer=-0.5000\nIntensity=0.5340\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0307\nCommonLossEdgeScorer=-1.8523\nLossSizeScorer=1.1054\nScore: -1.1185"];
+v8 [label="C20H21ClO4\n361.1205 Da, 45.34 %\nMassDev: 1.1927 ppm, 0.0004 Da\ncE: [10]\nCompoundScore: -0.32709647453702617\nMass Deviation=-0.2096\nStrangeElementRootScorer=-1.3863\nChemical Prior=0.1881\nScore: -1.4077"];
+v4 -> v1 [label="C6H5Cl"];
+v3 -> v2 [label="CO"];
+v4 -> v3 [label="C6H6O"];
+v7 -> v4 [label="C4H6O2"];
+v6 -> v5 [label="CO"];
+v7 -> v6 [label="H2O"];
+v8 -> v7 [label="C3H6"];
+}

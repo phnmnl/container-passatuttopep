@@ -1,0 +1,46 @@
+>compound MLS001076475-01!TETRAETHYLTHIURAM DISULFIDE97-77-8
+>formula C10H20N2S4
+>ionization [M+H]+
+>parentmass 297.06
+#inchi InChI=1S/C10H20N2S4/c1-5-11(6-2)9(13)15-16-10(14)12(7-3)8-4/h5-8H2,1-4H3
+#inchikey AUZONCFQVSMFAP
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Pharmacologically Active Library
+#PI Dorrestein
+#Data_Collector VP/LMS
+#Scan -1
+#Precursor_MZ 297.06
+#ExactMass 296.051
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles CCN(CC)C(=S)SSC(=S)N(CC)CC
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000084791
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID d252d724072548979f1f6f1ced849daf
+##Scan# 2533
+#SpectrumFile p3-A09_GA9_01_18230.mzXML
+#LibraryName Pharm_Active_Library.mgf
+#MQScore -1
+#Organism Pharm_Active_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 297.06
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+88.0231 3.37
+104.0544 3.54
+116.054 66.79
+148.025 100.0
+297.06 0.0

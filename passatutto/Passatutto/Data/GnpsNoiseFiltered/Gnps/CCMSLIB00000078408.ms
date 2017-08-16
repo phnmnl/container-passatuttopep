@@ -1,0 +1,47 @@
+>compound Captopril (Capoten)
+>formula C9H15NO3S
+>ionization [M+H]+
+>parentmass 218.083252
+#inchi InChI=1S/C9H15NO3S/c1-6(5-14)8(11)10-4-2-3-7(10)9(12)13/h6-7,14H,2-5H2,1H3,(H,12,13)/t6-,7-/m1/s1
+#inchikey FAKRSMQSSFJEIM
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source Commercial
+#PI Dorrestein
+#Data_Collector Garg_Neha
+#Scan -1
+#Precursor_MZ 218.085
+#ExactMass 217.077
+#Charge 1
+#CAS_Number 62571-86-2, 198342-23-3 (HCl)
+#Pubmed_ID N/A
+#Smiles C([C@@H]1N(CCC1)C([C@@H](CS)C)=O)(=O)O
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000078408
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID 77f51c88eb8b467eb4a01dd2d0cb90d2
+##Scan# 1034
+#SpectrumFile Plate6_41_60_GD9_01_15776.mzXML
+#LibraryName FDALibrary_2_04302014.mgf
+#MQScore -1
+#Organism FDALibrary_2_04302014
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 218.085
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+116.0702 100.0
+117.074 12.82
+171.09 3.46
+172.0775 83.05
+200.0747 5.9
+218.0833 120.32

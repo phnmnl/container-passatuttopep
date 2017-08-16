@@ -1,0 +1,17 @@
+strict digraph {
+v1 [label="C15H8ClFNO\n273.0351 Da, 3.99 %\nMassDev: -0.2059 ppm, -0.0001 Da\ncE: [10]\nMass Deviation=-0.0250\nTreeSizeScorer=-0.5000\nIntensity=1.0295\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=0.0110\nCommonLossEdgeScorer=1.5028\nLossSizeScorer=-0.4948\nScore: 1.4297"];
+v2 [label="C16H11ClFNO\n288.0588 Da, 0.46 %\nMassDev: 0.6272 ppm, 0.0002 Da\ncE: [10]\nMass Deviation=-0.0782\nTreeSizeScorer=-0.5000\nIntensity=0.2832\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 1.0733"];
+v3 [label="C17H11ClFNO2\n316.0536 Da, 2.01 %\nMassDev: 0.3419 ppm, 0.0001 Da\ncE: [10]\nMass Deviation=-0.0419\nTreeSizeScorer=-0.5000\nIntensity=0.7936\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 1.6200"];
+v4 [label="C17H8ClFNO3\n329.0243 Da, 0.45 %\nMassDev: -1.9071 ppm, -0.0006 Da\ncE: [10]\nMass Deviation=-0.2560\nTreeSizeScorer=-0.5000\nIntensity=0.2782\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=0.0122\nCommonLossEdgeScorer=1.5028\nLossSizeScorer=-0.4946\nScore: 0.4488"];
+v5 [label="C18H11ClFNO3\n344.0489 Da, 100.00 %\nMassDev: 1.2598 ppm, 0.0004 Da\ncE: [10]\nMass Deviation=-0.1629\nTreeSizeScorer=-0.5000\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0041\nCommonLossEdgeScorer=1.4335\nLossSizeScorer=0.0333\nScore: 2.9575"];
+v6 [label="C18H13ClFNO4\n362.0604 Da, 0.27 %\nMassDev: 3.7943 ppm, 0.0014 Da\ncE: [10]\nMass Deviation=-0.5653\nTreeSizeScorer=-0.5000\nIntensity=0.1037\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0347\nCommonLossEdgeScorer=-2.6886\nLossSizeScorer=0.6900\nScore: -2.9138"];
+v7 [label="C23H21ClFNO4\n430.1212 Da, 2.05 %\nMassDev: -0.8707 ppm, -0.0004 Da\ncE: [10]\nMass Deviation=-0.1100\nTreeSizeScorer=-0.5000\nIntensity=0.8008\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0224\nCommonLossEdgeScorer=1.4335\nLossSizeScorer=0.0333\nScore: 1.6916"];
+v8 [label="C23H23ClFNO5\n448.1330 Da, 0.00 %\nMassDev: 1.8852 ppm, 0.0008 Da\ncE: []\nCompoundScore: 3.7171557941226347\nStrangeElementRootScorer=-2.7726\nChemical Prior=0.1826\nScore: -2.5900"];
+v2 -> v1 [label="CH3"];
+v3 -> v2 [label="CO"];
+v5 -> v3 [label="CO"];
+v5 -> v4 [label="CH3"];
+v6 -> v5 [label="H2O"];
+v7 -> v6 [label="C5H8"];
+v8 -> v7 [label="H2O"];
+}

@@ -1,0 +1,62 @@
+>compound 3,4-dihydro-2,2-dimethyl-pyrano[3,2-c][2]benzopyran-6(2H)-one
+>formula C14H14O3
+>ionization [M+H]+
+>parentmass 231.1015707600905
+#inchi InChI=1S/C14H14O3/c1-14(2)8-7-11-12(17-14)9-5-3-4-6-10(9)13(15)16-11/h3-6H,7-8H2,1-2H3
+#inchikey NHUYGTCSYVBPOA
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Niege Furtado
+#Scan -1
+#Precursor_MZ 231.097
+#ExactMass 230.094
+#Charge 1
+#CAS_Number 1027802-09-0
+#Pubmed_ID  
+#Smiles CC(CC1)(C)OC(C2=CC=CC=C23)=C1OC3=O
+#INCHI_AUX  
+#Library_Class 3
+#SpectrumID CCMSLIB00000081256
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 3b7eccca3454457f80137dc4c6d13134
+##Scan# 1
+#SpectrumFile gnps_3_4_dihydro_2_2_dimethyl_pyrano_3_2_c_2_benzopyran_6_2H_one_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism gnps_library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 231.097
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 10
+128.058014 164.0
+129.028641 2511.0
+130.032578 283.0
+133.023697 4044.0
+134.028595 318.0
+147.039825 10898.0
+148.044113 1001.0
+149.0177 455.0
+152.057663 205.0
+157.024216 1583.0
+158.030167 209.0
+159.037354 185.0
+163.035553 330.0
+165.062607 222.0
+167.081741 277.0
+171.077087 397.0
+175.035675 27227.0
+176.038895 2715.0
+177.040665 305.0
+195.076172 204.0
+231.096786 2021.0

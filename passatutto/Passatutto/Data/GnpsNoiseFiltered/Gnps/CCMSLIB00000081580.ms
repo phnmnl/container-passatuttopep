@@ -1,0 +1,46 @@
+>compound Ebastin
+>formula C32H39NO2
+>ionization [M+H]+
+>parentmass 470.3053559400906
+#inchi InChI=1S/C32H39NO2/c1-32(2,3)28-18-16-25(17-19-28)30(34)15-10-22-33-23-20-29(21-24-33)35-31(26-11-6-4-7-12-26)27-13-8-5-9-14-27/h4-9,11-14,16-19,29,31H,10,15,20-24H2,1-3H3
+#inchikey MJJALKDDGIKVBE
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Commercial
+#PI Norberto Lopes
+#Data_Collector Norberto Lopes
+#Scan -1
+#Precursor_MZ 470.298
+#ExactMass 469.298
+#Charge 1
+#CAS_Number 90729-43-4
+#Pubmed_ID N/A
+#Smiles O=C(CCCN1CCC(OC(C2=CC=CC=C2)C3=CC=CC=C3)CC1)C4=CC=C(C(C)(C)C)C=C4
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081580
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 4a07f16a650f4095b43fe6b0b09ff8bb
+##Scan# 1
+#SpectrumFile gnps_Ebastin_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 470.298
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+154.0637 0.27
+169.0876 6.09
+302.2021 3.01
+304.2168 0.4
+470.3054 0.0

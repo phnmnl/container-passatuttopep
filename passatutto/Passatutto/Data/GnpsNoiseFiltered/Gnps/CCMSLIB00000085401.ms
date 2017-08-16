@@ -1,0 +1,47 @@
+>compound MLS002153785-01!Bambuterol hydrochloride81732-46-9
+>formula C18H29N3O5
+>ionization [M+H]+
+>parentmass 368.216766
+#inchi InChI=1S/C18H29N3O5/c1-18(2,3)19-11-15(22)12-8-13(25-16(23)20(4)5)10-14(9-12)26-17(24)21(6)7/h8-10,15,19,22H,11H2,1-7H3
+#inchikey ANZXOIAKUNOVQU
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Pharmacologically Active Library
+#PI Dorrestein
+#Data_Collector VP/LMS
+#Scan -1
+#Precursor_MZ 368.221
+#ExactMass 367.211
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles CN(C)C(=O)Oc1cc(OC(=O)N(C)C)cc(c1)C(O)CNC(C)(C)C
+#INCHI_AUX N/A
+#Library_Class 1
+#SpectrumID CCMSLIB00000085401
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-GOLD
+#LibraryQualityString Gold
+#TaskID d252d724072548979f1f6f1ced849daf
+##Scan# 1432
+#SpectrumFile p4-A04_GA4_01_18328.mzXML
+#LibraryName Pharm_Active_Library.mgf
+#MQScore -1
+#Organism Pharm_Active_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 368.221
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+249.0874 5.31
+251.139 6.19
+277.1181 2.53
+294.146 100.0
+312.1539 3.21
+368.2168 0.29

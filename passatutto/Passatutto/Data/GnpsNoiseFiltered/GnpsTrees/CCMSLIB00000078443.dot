@@ -1,0 +1,9 @@
+strict digraph {
+v1 [label="C19H19FN2\n295.1606 Da, 1.26 %\nMassDev: 0.1685 ppm, 0.0000 Da\ncE: [10]\nMass Deviation=-0.0204\nTreeSizeScorer=1.0000\nIntensity=0.6322\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0255\nCommonLossEdgeScorer=-1.0255\nLossSizeScorer=0.8796\nScore: 1.5030"];
+v2 [label="C19H21FN2\n297.1754 Da, 100.00 %\nMassDev: -2.3802 ppm, -0.0007 Da\ncE: [10]\nMass Deviation=-0.3283\nTreeSizeScorer=1.0000\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.1609\nLossSizeScorer=0.7807\nScore: 3.8070"];
+v3 [label="C21H23FN2\n323.1907 Da, 7.16 %\nMassDev: -3.4017 ppm, -0.0011 Da\ncE: [10]\nMass Deviation=-0.4963\nTreeSizeScorer=1.0000\nIntensity=1.2310\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0088\nCommonLossEdgeScorer=-1.7649\nLossSizeScorer=1.0914\nScore: 1.0816"];
+v4 [label="C23H30FN3\n368.2495 Da, 110.68 %\nMassDev: -0.5475 ppm, -0.0002 Da\ncE: [10]\nCompoundScore: 5.103649736279385\nMass Deviation=-0.0915\nStrangeElementRootScorer=-1.3863\nChemical Prior=0.1898\nScore: -1.2880"];
+v3 -> v1 [label="C2H4"];
+v3 -> v2 [label="C2H2"];
+v4 -> v3 [label="C2H7N"];
+}

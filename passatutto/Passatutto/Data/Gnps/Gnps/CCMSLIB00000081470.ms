@@ -1,0 +1,46 @@
+>compound Eremanthin
+>formula C15H18O2
+>ionization [M+Na]+
+>parentmass 253.11990051609052
+#inchi InChI=1S/C15H18O2/c1-8-4-7-12-10(3)15(16)17-14(12)13-9(2)5-6-11(8)13/h4,11-14H,2-3,5-7H2,1H3/t11-,12-,13-,14-/m0/s1
+#inchikey BWRZDLYJNURUHS
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 253.134
+#ExactMass 230.131
+#Charge 1
+#CAS_Number 37936-58-6
+#Pubmed_ID N/A
+#Smiles O=C(C1=C)O[C@@]2([H])[C@@]1([H])CC=C(C)[C@@](CC3)([H])[C@]2([H])C3=C
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081470
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 053e8682627d4c9488a292c234ed8aed
+##Scan# 1
+#SpectrumFile gnps_Eremanthin_pos_MplusNa.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism blank
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 253.134
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 10
+161.129303 122.0
+217.151077 146.0
+234.151886 166.0
+235.162125 303.0
+253.134171 1672.0

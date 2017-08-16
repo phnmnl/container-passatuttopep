@@ -1,0 +1,51 @@
+>compound Luteolin 3',4'-dimethyl ether
+>formula C17H14O6
+>ionization [M+H]+
+>parentmass 315.08631462009055
+#inchi InChI=1S/C17H14O6/c1-21-13-4-3-9(5-15(13)22-2)14-8-12(20)17-11(19)6-10(18)7-16(17)23-14/h3-8,18-19H,1-2H3
+#inchikey AOLOMULCAJQEIG
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Gobbo Neto
+#Scan -1
+#Precursor_MZ 315.079
+#ExactMass 314.079
+#Charge 1
+#CAS_Number 4712-12-03
+#Pubmed_ID N/A
+#Smiles O=C1C2=C(O)C=C(O)C=C2OC(C3=CC(OC)=C(OC)C=C3)=C1
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000081739
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 52bd5f0db6314c93924d5ce5c86348eb
+##Scan# 1
+#SpectrumFile gnps_Luteolin_3_4_dimethyl_ether_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism batch_27_05_V02
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 315.079
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 10
+167.030594 1711.0
+173.053513 569.0
+201.051147 836.0
+229.042419 717.0
+243.059311 2361.0
+257.036407 2466.0
+272.061035 40098.0
+285.035919 421.0
+300.056519 23323.0
+315.078522 1977.0

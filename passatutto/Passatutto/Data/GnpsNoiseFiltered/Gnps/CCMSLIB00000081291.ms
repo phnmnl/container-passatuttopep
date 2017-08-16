@@ -1,0 +1,60 @@
+>compound Galgravin
+>formula C22H28O5
+>ionization [M+H]+
+>parentmass 373.2009504480905
+#inchi InChI=1S/C22H28O5/c1-13-14(2)22(16-8-10-18(24-4)20(12-16)26-6)27-21(13)15-7-9-17(23-3)19(11-15)25-5/h7-14,21-22H,1-6H3/t13-,14+,21-,22+
+#inchikey JLJAVUZBHSLLJL
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 373.196
+#ExactMass 372.194
+#Charge 1
+#CAS_Number 528-63-2
+#Pubmed_ID  
+#Smiles COC1=C(OC)C=C([C@@H]2[C@@H](C)[C@@H](C)[C@H](C3=CC(OC)=C(OC)C=C3)O2)C=C1
+#INCHI_AUX  
+#Library_Class 3
+#SpectrumID CCMSLIB00000081291
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID feaf036d212f424bb0ed658977fe8ee9
+##Scan# 1
+#SpectrumFile gnps_Galgravin_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism gnps_library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 373.196
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+121.0648 0.62
+124.0511 1.7
+135.0443 1.58
+136.0509 3.48
+137.0591 0.71
+139.075 24.19
+148.0897 0.86
+151.074 100.0
+163.0755 3.33
+167.0705 81.18
+176.0835 3.86
+179.1067 72.31
+191.1062 9.34
+195.1006 12.76
+202.0984 11.54
+217.1208 95.93
+235.1315 84.41
+355.1879 10.84
+373.201 0.0

@@ -1,0 +1,15 @@
+strict digraph {
+v1 [label="C7H8O\n109.0652 Da, 0.35 %\nMassDev: 3.9671 ppm, 0.0004 Da\ncE: [10]\nMass Deviation=-0.2936\nCommon Fragments:=1.0844\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.9093\nIntensity=0.1915\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8780\nScore: 2.7599"];
+v2 [label="C8H8O2\n137.0595 Da, 0.22 %\nMassDev: -1.2108 ppm, -0.0002 Da\ncE: [10]\nMass Deviation=-0.1043\nCommon Fragments:=-0.5300\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.6294\nIntensity=0.0266\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 0.8901"];
+v3 [label="C6H2O2\n107.0136 Da, 4.24 %\nMassDev: 7.9919 ppm, 0.0009 Da\ncE: [10]\nMass Deviation=-0.6515\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.9299\nIntensity=1.0505\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=-0.0135\nCommonLossEdgeScorer=1.5028\nLossSizeScorer=-0.4950\nScore: 1.7294"];
+v4 [label="C7H5O2\n122.0364 Da, 3.45 %\nMassDev: 1.2631 ppm, 0.0002 Da\ncE: [10]\nMass Deviation=-0.0966\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.7796\nIntensity=0.9800\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=0.4345\nLossSizeScorer=0.8781\nScore: 2.5315"];
+v5 [label="C8H5O3\n150.0316 Da, 17.97 %\nMassDev: 2.9362 ppm, 0.0004 Da\ncE: [10]\nMass Deviation=-0.2996\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.4997\nIntensity=1.5474\nFree Radical=-0.0937\nChemicalPriorEdgeScorer=0.0156\nCommonLossEdgeScorer=1.5028\nLossSizeScorer=-0.4947\nScore: 2.1774"];
+v6 [label="C9H8O3\n165.0557 Da, 100.00 %\nMassDev: 6.6004 ppm, 0.0011 Da\ncE: [10]\nMass Deviation=-0.8822\nTreeSizeScorer=-0.5000\nFragmentSizeScorer=0.3494\nIntensity=2.1379\nFree Radical=0.0116\nChemicalPriorEdgeScorer=0.0441\nCommonLossEdgeScorer=-2.7389\nLossSizeScorer=-4.1227\nScore: -5.7007"];
+v7 [label="C21H23N3O4S\n414.1490 Da, 0.00 %\nMassDev: 1.9228 ppm, 0.0008 Da\ncE: []\nCompoundScore: 3.174448613810183\nStrangeElementRootScorer=-1.3863\nChemical Prior=0.1731\nScore: -1.2132"];
+v2 -> v1 [label="CO"];
+v6 -> v2 [label="CO"];
+v4 -> v3 [label="CH3"];
+v5 -> v4 [label="CO"];
+v6 -> v5 [label="CH3"];
+v7 -> v6 [label="C12H15N3OS"];
+}

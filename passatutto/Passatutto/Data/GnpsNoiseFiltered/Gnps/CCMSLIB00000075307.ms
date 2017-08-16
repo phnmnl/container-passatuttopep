@@ -1,0 +1,57 @@
+>compound Kanamycin A
+>formula C18H36N4O11
+>ionization [M+H]+
+>parentmass 485.2453344240905
+#inchi InChI=1S/C18H36N4O11/c19-2-6-10(25)12(27)13(28)18(30-6)33-16-5(21)1-4(20)15(14(16)29)32-17-11(26)8(22)9(24)7(3-23)31-17/h4-18,23-29H,1-3,19-22H2/t4-,5+,6-,7-,8+,9-,10-,11-,12+,13-,14-,15+,16-,17-,18-/m1/s1
+#inchikey SBUJHOSQTJFQJX
+#Ion_Source DI-ESI
+#Instrument Ion Trap
+#Compound_Source commercial
+#PI Dorrestein/Moore
+#Data_Collector Roland Kersten
+#Scan -1
+#Precursor_MZ 485.0
+#ExactMass 484.238
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles O([C@@H]2[C@@H](O)[C@H](O[C@H]1O[C@H](CN)[C@@H](O)[C@H](O)[C@H]1O)[C@@H](N)C[C@H]2N)[C@H]3O[C@@H]([C@@H](O)[C@H](N)[C@H]3O)CO
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000075307
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 216f7e25eb284d139eda10f0ea06e32c
+##Scan# 45
+#SpectrumFile Kanamycin_A_IT_485mz.mzXML
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism empty
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 485
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+169.121 0.41
+180.0647 0.35
+203.9771 1.38
+222.016 0.56
+264.1309 0.58
+270.0328 0.22
+281.0171 0.31
+287.0961 0.62
+305.0409 2.85
+323.0601 4.78
+324.0609 100.0
+330.2006 0.22
+402.1893 0.27
+431.1422 0.31
+450.16 7.47
+485.2453 0.0

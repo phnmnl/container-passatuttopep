@@ -1,0 +1,61 @@
+>compound 3-O-Acetylpinobanksin
+>formula C17H14O6
+>ionization [M+H]+
+>parentmass 315.08631462009055
+#inchi InChI=1S/C17H14O6/c1-9(18)22-17-15(21)14-12(20)7-11(19)8-13(14)23-16(17)10-5-3-2-4-6-10/h2-8,16-17,19-20H,1H3/t16-,17+/m1/s1
+#inchikey BJYHZSNSMVEQEH
+#Ion_Source DI-ESI
+#Instrument qTof
+#Compound_Source Isolated
+#PI Norberto Lopes
+#Data_Collector Denise Silva
+#Scan -1
+#Precursor_MZ 315.079
+#ExactMass 314.079
+#Charge 1
+#CAS_Number 52117-69-8
+#Pubmed_ID  
+#Smiles O=C1C2=C(O)C=C(O)C=C2O[C@H](C3=CC=CC=C3)[C@H]1OC(C)=O
+#INCHI_AUX  
+#Library_Class 3
+#SpectrumID CCMSLIB00000081302
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID 225f5fffe471498993152fb126f95ebf
+##Scan# 1
+#SpectrumFile gnps_3_O_Acetylpinobanksin_pos_MplusH.mgf
+#LibraryName gnps_library.mgf
+#MQScore -1
+#Organism gnps_library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 315.079
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 10
+149.018707 1698.0
+150.023254 122.0
+153.013107 3924.0
+154.018448 246.0
+181.059296 145.0
+199.069794 4914.0
+200.074387 514.0
+227.065079 2206.0
+228.071564 276.0
+242.050903 222.0
+254.050034 327.0
+255.05632 1209.0
+257.036591 123.0
+271.054443 2023.0
+285.031769 424.0
+286.04068 574.0
+290.817993 127.0
+299.048187 7206.0
+300.05191 2564.0
+315.079102 6283.0

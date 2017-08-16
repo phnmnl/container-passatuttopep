@@ -1,0 +1,46 @@
+>compound MLS001076511-01!PARGYLINE HYDROCHLORIDE306-07-0
+>formula C11H13N
+>ionization [M+H]+
+>parentmass 160.11207586809053
+#inchi InChI=1S/C11H13N/c1-3-9-12(2)10-11-7-5-4-6-8-11/h1,4-8H,9-10H2,2H3
+#inchikey DPWPWRLQFGFJFI
+#origInchi InChI=1S/C11H13N.ClH/c1-3-9-12(2)10-11-7-5-4-6-8-11;/h1,4-8H,9-10H2,2H3;1H
+#Ion_Source LC-ESI
+#Instrument qTof
+#Compound_Source NIH Pharmacologically Active Library
+#PI Dorrestein
+#Data_Collector VP/LMS
+#Scan -1
+#Precursor_MZ 160.109
+#ExactMass 159.105
+#Charge 1
+#CAS_Number N/A
+#Pubmed_ID N/A
+#Smiles CN(CC#C)Cc1ccccc1.Cl
+#INCHI_AUX N/A
+#Library_Class 3
+#SpectrumID CCMSLIB00000085375
+#IonMode Positive
+#UpdateWorkflowName UPDATE-SINGLE-ANNOTATED-BRONZE
+#LibraryQualityString Bronze
+#TaskID d252d724072548979f1f6f1ced849daf
+##Scan# 1091
+#SpectrumFile p3-H11_GH11_01_18316.mzXML
+#LibraryName Pharm_Active_Library.mgf
+#MQScore -1
+#Organism Pharm_Active_Library
+#TIC_Query 0
+#RT_Query -1
+#MZErrorPPM -1
+#SharedPeaks 0
+#MassDiff 0
+#LibMZ -1
+#SpecMZ 160.109
+#SpecCharge 0
+#internalFilename spec-00000.mgf
+
+>collision 0
+91.0538 100.0
+120.0827 10.25
+144.0811 24.38
+160.1121 0.0
